@@ -1,9 +1,77 @@
 @import url("fonts.css");
-
+:root{
+ --bs-body-color : #00000;
+ --bs-body-bg: #fffce9;
+ --bs-primary: #380301;
+ --bs-primary-hover: #500300;
+ --bs-primary-rgb: 56, 3, 1;
+}
 body{
     font-family:"Noto Sans", "Roboto Condensed", "Arial", sans-serif;
 }
 
 h1,h2,h3,h4,h5,h6{
     font-family:"Crimson Text", "Times", serif;
+}
+
+.btn-primary{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-border-color: var(--bs-primary);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: var(--bs-primary-hover);
+    --bs-btn-hover-border-color: var(--bs-primary-hover);
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--bs-primary-hover);
+    --bs-btn-active-border-color: var(--bs-primary-hover);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: var(--bs-primary);
+    --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+
+/* Bootstrap Modified */
+.nav {
+    font-family: "Crimson Text", "Times", serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform:uppercase;    
+}
+
+.nav-pills .nav-link{
+    color: inherit;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link{
+    color: var(--bs-primary);
+    background-color: transparent;
+    border-bottom: 4px solid var(--bs-primary);
+    border-radius: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+
+/* CUSTOM */
+
+
+/* General */
+body > section:not(:first-child){
+    margin-top: 2em;
+}
+
+
+/* Jumbotron */
+.jumbotron-img{
+    object-fit:contain;
+    max-height: 100vh;
+    height:70vh;
+}
+
+/* Collection */
+#collection .col > .item{
+    border-radius: 1.5em;
+    background-color: var(--bs-body-bg);
+    padding: 1.5em; 
 }

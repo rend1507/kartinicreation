@@ -2,9 +2,11 @@
 include("inc/header.php");
 ?>
 
-<h1>Test Header</h1>
+<?php
+include("section/jumbotron.php");
+include("section/collection.php");
+?>
 
-Test
 <?php
 include("inc/footer.php");
 ?>

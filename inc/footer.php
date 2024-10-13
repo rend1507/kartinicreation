@@ -1,3 +1,9 @@
+<?php
+// Base Info
+$map = "https://maps.app.goo.gl/BzmX3ABjry2hfEGr8";
+
+?>
+
 <footer class="footer mt-auto">
     <div class="container   d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
 
@@ -5,9 +11,7 @@
 
         <a href="/"
             class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32">
-                <use xlink:href="#bootstrap"></use>
-            </svg>
+            <img width="40px" src="src/img/icon-kartini-square.png"/>
         </a>
 
         <ul class="nav col-md-4 justify-content-end">
@@ -27,7 +31,9 @@
 <!-- Custom -->
 <script src="src/js/scipt.js"></script>
 <script>
-    AOS.init();
+    AOS.init({
+        duration: 1200,
+    })
 </script>
 
 </html>
