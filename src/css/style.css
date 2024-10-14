@@ -2,9 +2,12 @@
 :root{
  --bs-body-color : #00000;
  --bs-body-bg: #fffce9;
+ --bs-body-rgb: 255, 252, 233;
  --bs-primary: #380301;
  --bs-primary-hover: #500300;
  --bs-primary-rgb: 56, 3, 1;
+
+ --radius: 1.5em;
 }
 body{
     font-family:"Noto Sans", "Roboto Condensed", "Arial", sans-serif;
@@ -71,7 +74,36 @@ body > section:not(:first-child){
 
 /* Collection */
 #collection .col > .item{
-    border-radius: 1.5em;
+    border-radius:var(--radius);
     background-color: var(--bs-body-bg);
-    padding: 1.5em; 
+    position: relative;
+}
+
+#collection .col > .item img{
+    border-radius: var(--radius);
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+}
+
+#collection .col > .item .caption{
+    transition: .3s ease-in-out all;
+    opacity:0;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding:var(--radius);
+
+    color: var(--bs-primary);
+    background-color:rgba(var(--bs-body-rgb), .7);
+    border-radius: var(--radius);
+    font-weight:bold;
+    text-align:center;
+}
+
+#collection .col > .item .caption:hover{
+    opacity:1;
 }
