@@ -25,11 +25,12 @@ $map = "https://maps.app.goo.gl/BzmX3ABjry2hfEGr8";
 </footer>
 
 </body>
-<script src="src/dist/bootstrap/js/bootstrap.min.js"></script>
-<script src="src/dist/aos/aos.js"></script>
+<script type="text/javascript" src="src/dist/jquery.min.js"></script>
+<script type="text/javascript" src="src/dist/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="src/dist/aos/aos.js"></script>
 
 <!-- Custom -->
-<script src="src/js/scipt.js"></script>
+<script type="text/javascript" src="src/js/script.js"></script>
 <script>
     AOS.init({
         duration: 1200,

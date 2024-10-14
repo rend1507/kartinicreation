@@ -1,109 +1,182 @@
 @import url("fonts.css");
-:root{
- --bs-body-color : #00000;
- --bs-body-bg: #fffce9;
- --bs-body-rgb: 255, 252, 233;
- --bs-primary: #380301;
- --bs-primary-hover: #500300;
- --bs-primary-rgb: 56, 3, 1;
+:root {
+  --bs-body-color: #00000;
+  --bs-body-bg: #fffce9;
+  --bs-body-rgb: 255, 252, 233;
+  --bs-primary: #380301;
+  --bs-primary-hover: #500300;
+  --bs-primary-rgb: 56, 3, 1;
 
- --radius: 1.5em;
+  --radius: 1.5em;
 }
-body{
-    font-family:"Noto Sans", "Roboto Condensed", "Arial", sans-serif;
-}
-
-h1,h2,h3,h4,h5,h6{
-    font-family:"Crimson Text", "Times", serif;
+body {
+  font-family: "Noto Sans", "Roboto Condensed", "Arial", sans-serif;
 }
 
-.btn-primary{
-    --bs-btn-color: #fff;
-    --bs-btn-bg: var(--bs-primary);
-    --bs-btn-border-color: var(--bs-primary);
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: var(--bs-primary-hover);
-    --bs-btn-hover-border-color: var(--bs-primary-hover);
-    --bs-btn-focus-shadow-rgb: 49, 132, 253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: var(--bs-primary-hover);
-    --bs-btn-active-border-color: var(--bs-primary-hover);
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: var(--bs-primary);
-    --bs-btn-disabled-border-color: var(--bs-primary);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Crimson Text", "Times", serif;
 }
 
-
-/* Bootstrap Modified */
-.nav {
-    font-family: "Crimson Text", "Times", serif;
-    font-size: 17px;
-    font-weight: bold;
-    text-transform:uppercase;    
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: var(--bs-primary-hover);
+  --bs-btn-hover-border-color: var(--bs-primary-hover);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--bs-primary-hover);
+  --bs-btn-active-border-color: var(--bs-primary-hover);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: var(--bs-primary);
+  --bs-btn-disabled-border-color: var(--bs-primary);
 }
-
-.nav-pills .nav-link{
-    color: inherit;
-}
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link{
-    color: var(--bs-primary);
-    background-color: transparent;
-    border-bottom: 4px solid var(--bs-primary);
-    border-radius: 0;
-    transition: all ease-in-out 0.3s;
-}
-
 
 /* CUSTOM */
 
-
 /* General */
-body > section:not(:first-child){
-    margin-top: 2em;
+body > section:not(:first-child) {
+  margin-top: 2em;
 }
 
+.title-head {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/* Navbar */
+#logo-navbar {
+  height: 60px;
+  transition: all 0.3s ease-in-out;
+  background-image: url("../../src/img/logo-kartini-landscape-1.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body.navbar-scrolled #logo-navbar {
+  height: 55px;
+}
+body.navbar-scrolled header {
+  background-color: rgba(var(--bs-body-rgb), .7)
+}
+
+.nav {
+  font-family: "Crimson Text", "Times", serif;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav-pills .nav-link {
+  color: inherit;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-primary);
+  background-color: transparent;
+  border-bottom: 4px solid var(--bs-primary);
+  border-radius: 0;
+  transition: all ease-in-out 0.3s;
+}
 
 /* Jumbotron */
-.jumbotron-img{
-    object-fit:contain;
-    max-height: 100vh;
-    height:70vh;
+#home {
+  padding-top: 150px;
+}
+.jumbotron-img {
+  object-fit: contain;
+  max-height: 100vh;
+  height: 70vh;
 }
 
 /* Collection */
-#collection .col > .item{
-    border-radius:var(--radius);
-    background-color: var(--bs-body-bg);
-    position: relative;
+#collection .col > .item {
+  border-radius: var(--radius);
+  background-color: var(--bs-body-bg);
+  position: relative;
 }
 
-#collection .col > .item img{
-    border-radius: var(--radius);
-    width: 100%;
-    height: 300px;
-    object-fit:cover;
+#collection .col > .item img {
+  border-radius: var(--radius);
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
-#collection .col > .item .caption{
-    transition: .3s ease-in-out all;
-    opacity:0;
-    
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding:var(--radius);
+#collection .col > .item .caption {
+  transition: 0.3s ease-in-out all;
+  opacity: 0;
 
-    color: var(--bs-primary);
-    background-color:rgba(var(--bs-body-rgb), .7);
-    border-radius: var(--radius);
-    font-weight:bold;
-    text-align:center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: var(--radius);
+
+  color: var(--bs-primary);
+  background-color: rgba(var(--bs-body-rgb), 0.7);
+  border-radius: var(--radius);
+  font-weight: bold;
+  text-align: center;
 }
 
-#collection .col > .item .caption:hover{
-    opacity:1;
+#collection .col > .item .caption:hover {
+  opacity: 1;
+}
+
+/* Video */
+#video .embed {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#video .embed iframe {
+  user-select: none;
+  pointer-events: none;
+  width: 300%;
+  height: 100%;
+  margin-left: -100%;
+}
+
+#video .embed .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 1;
+  opacity: 0.5;
+  transition: 0.3s all ease-in-out;
+}
+#video .embed .overlay:hover {
+  opacity: 0;
+}
+#video .embed .overlay .text {
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

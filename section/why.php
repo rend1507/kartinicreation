@@ -1,8 +1,8 @@
 <section id="why" class="bg-primary text-light py-5">
     <div class="container">
         <div class="row align-content-center">
-            <div class="col-12 text-center mb-5">
-                <h2 class="text-uppercase">Kenapa memilih kami?</h2>
+            <div class="col-12 text-center mb-3">
+                <h2 class="text-uppercase fw-medium">Why us?</h2>
             </div>
             <div class="col-6 my-auto">
                 <p>
@@ -17,7 +17,7 @@
                 <a class="btn btn-light rounded-pill">Know us more</a>
             </div>
             <div class="col-6 text-center">
-                <img style="height: 70vh;" src="src/img/person/why-1.png"/>
+                <img style="height: 500px;" src="src/img/person/why-1.png"/>
             </div>
         </div>
     </div>
