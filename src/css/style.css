@@ -184,8 +184,12 @@ body.navbar-scrolled header {
 /* Gallery */
 #gallery #content img {
   border-radius: 1.25em;
+
   margin-bottom:1em;
-  object-fit:cover;
+  
   max-height:400px;
   width:100%;
+
+  object-fit:cover;
+  object-position:top;
 }

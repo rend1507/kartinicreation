@@ -1,5 +1,5 @@
 <section id="gallery">
-    <div class="container mb-4">
+    <div class="container mb-3">
         <div class="row">
             <div class="col-12">
                 <h2 class="title-head">Gallery</h2>
@@ -8,32 +8,35 @@
         </div>
     </div>
     <!-- Gallery -->
-    <div class="container-fluid px-0" id="content">
-        <div class="row row-cols-3" data-aos="fade">
-            <div class="col">
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-                <a href="https://www.w3schools.com/w3images/wedding.jpg" data-toggle="lightbox">
-                    <img src="https://www.w3schools.com/w3images/wedding.jpg" class="img-fluid">
-                </a>
-            </div>
-            <div class="col">
-                <a href="https://www.w3schools.com/w3images/wedding.jpg" data-toggle="lightbox">
-                    <img src="https://www.w3schools.com/w3images/wedding.jpg" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-            </div>
-            <div class="col">
-                <a href="https://www.w3schools.com/w3images/wedding.jpg" data-toggle="lightbox">
-                    <img src="https://www.w3schools.com/w3images/wedding.jpg" class="img-fluid">
-                </a>
-                <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox">
-                    <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
-                </a>
-            </div>
+    <div class="container-fluid" id="content">
+        <div class="row row-cols-4" data-aos="fade">
+            <?php
+            $arrayImg = array(
+                'knit' => 5,
+                'hike' => 5,
+                'plain' => 1,
+                'grey' => 5,
+
+            );
+
+            $previousSeriesOpen = false; // Set flag if current series has 1 item
+
+            foreach ($arrayImg as $series => $length) { ?>
+                    <div class="col">
+
+                    <?php
+                    for ($i = 1; $i <= $length; $i++) { ?>
+                        <a href="src/img/gallery/<?= $series ?>-<?= $i ?>.jpg" data-toggle="lightbox">
+                            <img src="src/img/gallery/<?= $series ?>-<?= $i ?>.jpg" class="img-fluid">
+                        </a>
+                        <?php
+                    }
+                    ?>
+                    </div>
+
+                <?php
+            }
+            ?>
             <!-- Gallery -->
         </div>
 </section>
