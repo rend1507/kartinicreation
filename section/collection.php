@@ -1,5 +1,5 @@
 <section id="collection">
-    <div class="container rounded-4 bg-primary text-white px-5 pt-5">
+    <div class="container rounded-4 bg-primary text-white px-5 pt-5" data-aos="fade-left">
         <div class="row">
             <div class="col-12 title-head">
                 <p class="mb-0">Great choices to accompany</p>
@@ -7,7 +7,7 @@
             </div>
         </div>
         <div class="row row-cols-3 align-items-center g-4 justify-content-center">
-            <div class="col">
+            <div class="col" data-aos="fade-up" data-aos-delay="300">
                 <div class="item">
                     <img src="src/img/product/product-1.jpg" class="img-responsive" />
                     <div class="caption d-flex flex-column align-items-center justify-content-center">
@@ -16,7 +16,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col" data-aos="fade-up" data-aos-delay="400">
                 <div class="item">
                     <img src="src/img/product/product-2.jpg" class="img-responsive" />
                     <div class="caption d-flex flex-column align-items-center justify-content-center">
@@ -25,7 +25,7 @@
                 </div>
             </div>
 
-            <div class="col">
+            <div class="col" data-aos="fade-up" data-aos-delay="500">
                 <div class="item">
                     <img src="src/img/product/product-3.jpg" class="img-responsive" />
                     <div class="caption d-flex flex-column align-items-center justify-content-center">
@@ -34,9 +34,9 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-end py-3 ">
+        <div class="row justify-content-end py-3"  data-aos="fade" data-aos-delay="700">
             <div class="col-12 text-end">
-                <a href="#" class="btn btn-light rounded-pill mb-0">See more..</a>
+                <a href="#gallery" class="btn btn-light rounded-pill mb-0">See more..</a>
             </div>
         </div>
     </div>

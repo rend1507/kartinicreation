@@ -28,13 +28,8 @@ $map = "https://maps.app.goo.gl/BzmX3ABjry2hfEGr8";
 <script type="text/javascript" src="src/dist/jquery.min.js"></script>
 <script type="text/javascript" src="src/dist/bootstrap/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="src/dist/aos/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
 
 <!-- Custom -->
 <script type="text/javascript" src="src/js/script.js"></script>
-<script>
-    AOS.init({
-        duration: 1200,
-    })
-</script>
-
 </html>

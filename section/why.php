@@ -4,7 +4,7 @@
             <div class="col-12 text-center mb-3">
                 <h2 class="text-uppercase fw-medium">Why us?</h2>
             </div>
-            <div class="col-6 my-auto">
+            <div class="col-6 my-auto" data-aos="fade-right">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at sapien
                     eros. Quisque vulputate, nisl sed dapibus tincidunt, lorem lacus
@@ -16,7 +16,7 @@
                 </p>
                 <a class="btn btn-light rounded-pill">Know us more</a>
             </div>
-            <div class="col-6 text-center">
+            <div class="col-6 text-center" data-aos="fade-left">
                 <img style="height: 500px;" src="src/img/person/why-1.png"/>
             </div>
         </div>

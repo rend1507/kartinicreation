@@ -1,5 +1,13 @@
+window.scrollTo(0, 0);  // Force scroll to top as soon as possible
+
 $(function () {
     const offset = 149;
+
+
+    AOS.init({
+        duration: 1200,
+        once: true,
+    })
 
     $(window).scroll(function () {
         if ($(this).scrollTop() >= 30) {
