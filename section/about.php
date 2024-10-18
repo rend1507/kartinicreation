@@ -2,23 +2,23 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-12">
-        <h2 class="title-head">ABOUT US</h2>
+        <h2 class="title-head text-underline">ABOUT US</h2>
       </div>
       <div class="col-12">
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at sapien
-        eros. Quisque vulputate, nisl sed dapibus tincidunt, lorem lacus
-        sagittis risus, vitae condimentum ante leo non dui. Vivamus eleifend
-        felis et velit iaculis mollis. Mauris ut sagittis metus. Quisque
-        sagittis pulvinar ipsum, quis dignissim tellus ornare eget. Ut vel
-        eleifend odio. Aliquam vulputate maximus orci, nec egestas lacus lacinia
-        quis. Suspendisse porttitor ligula non placerat consectetur.
-        Pellentesque congue, risus eget porttitor pharetra, urna massa efficitur
-        risus, et efficitur turpis nunc sit amet tortor. Ut et dolor id lacus
-        rhoncus luctus at ullamcorper elit. Sed quis nunc rhoncus, condimentum
-        dolor sed, fringilla sem. Donec luctus lacus et augue interdum, id
-        maximus nisl imperdiet. Donec aliquam arcu vitae mi tempor, laoreet
-        placerat felis dignissim. Nullam ac posuere nulla.
+          At Kartini Creations, we bring the beauty of handmade craftsmanship to life through our unique, customized
+          knitwear and crochet arts. Each piece is lovingly crafted by hand by our founder, Putri Kapandeyan, ensuring
+          that every item is not just a product but a personal creation made with care.
+          <br />
+          <br />
+          Whether you're looking for the perfect cozy sweater, a unique crochet accessory, or a bespoke piece tailored
+          to your style, we offer a range of customization options. Choose your preferred size, color, yarn, and
+          pattern, and we'll create something special just for you.
+          <br />
+          <br />
+          Based in Malang City, Indonesia, we take pride in supporting traditional crafts while offering modern designs that fit your
+          personal aesthetic. Kartini Creations is your home for personalized, handmade wearables that bring warmth and
+          individuality to every wardrobe.
         </p>
         <a class="btn btn-primary rounded-pill">Know us more</a>
       </div>

@@ -2,20 +2,20 @@
     <div class="container mb-3">
         <div class="row">
             <div class="col-12">
-                <h2 class="title-head">Gallery</h2>
+                <h2 class="title-head text-underline">Gallery</h2>
 
             </div>
         </div>
     </div>
     <!-- Gallery -->
-    <div class="container-fluid" id="content">
+    <div class="container-fluid content">
         <div class="row row-cols-4" data-aos="fade">
             <?php
             $arrayImg = array(
-                'knit' => 5,
-                'hike' => 5,
-                'plain' => 1,
-                'grey' => 5,
+                'beanies' => 4,
+                'full' => 4,
+                'full-1' => 4,
+                'sweater' => 3,
 
             );
 

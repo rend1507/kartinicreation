@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 title-head">
                 <p class="mb-0">Great choices to accompany</p>
-                <h2>your activities</h2>
+                <h2 class="text-underline">your activities</h2>
             </div>
         </div>
         <div class="row row-cols-3 align-items-center g-4 justify-content-center">
