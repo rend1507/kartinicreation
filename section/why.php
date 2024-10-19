@@ -24,7 +24,7 @@
                         and promote sustainable fashion practices.</li>
                 </ul>
 
-                <a class="btn btn-light rounded-pill">Know us more</a>
+                <a target="_blank" href="https://instagram.com/kartini_creations" class="float-end btn btn-light rounded-pill">Know us more</a>
             </div>
             <div class="col-6 text-center" data-aos="fade-left">
                 <img style="height: 500px;" src="src/img/person/why-1.png" />

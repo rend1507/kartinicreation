@@ -47,6 +47,11 @@ h6 {
   text-decoration: underline;
 }
 
+.icon {
+  width: 1em;
+  height: 1em;
+}
+
 /* General */
 body > section:not(:first-child) {
   margin-top: 2em;
@@ -228,4 +233,12 @@ body.navbar-scrolled header {
   font-family: var(--font-serif);
 
   margin-bottom: 0;
+}
+
+#cta .icon {
+  filter:invert(1);
+}
+
+#cta .contacts-list .btn:hover .icon {
+  filter:invert(0);
 }

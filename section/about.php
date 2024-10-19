@@ -20,7 +20,7 @@
           personal aesthetic. Kartini Creations is your home for personalized, handmade wearables that bring warmth and
           individuality to every wardrobe.
         </p>
-        <a class="btn btn-primary rounded-pill">Know us more</a>
+        <a target="_blank" href="https://instagram.com/kartini_creations" class="btn btn-primary rounded-pill">More details..</a>
       </div>
     </div>
   </div>

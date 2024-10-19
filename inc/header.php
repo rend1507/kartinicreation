@@ -8,12 +8,16 @@
       <meta name="keywords" content="hand-craft, product, outerwear">
       <meta name="author" content="Rendy Yofana Kusuma">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Icon -->
+      <!-- Favicon -->
       <link rel="icon" type="image/jpg" href="src/img/icon-kartini-square-bg.jpg" />
 
 
       <link rel="stylesheet" href="src/dist/bootstrap/css/bootstrap.min.css" />
       <link rel="stylesheet" href="src/dist/aos/aos.css" />
+
+      <!-- FontAwesome -->
+       <!-- our project just needs Font Awesome Solid + Brands -->
+      <link rel="stylesheet" href="src/dist/fontawesome/css/all.min.css" />
 
       <!-- Custom -->
       <link rel="stylesheet" href="src/css/style.css" />
@@ -31,6 +35,7 @@
                         <li class="nav-item"><a href="#why" class="nav-link">Why Us</a></li>
                         <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
                         <li class="nav-item"><a href="#video" class="nav-link">Video</a></li>
+                        <li class="nav-item"><a href="#product" class="nav-link">Product</a></li>
                         <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
                         <li class="nav-item"><a href="#cta" class="nav-link">Contact Us</a></li>
                   </ul>
