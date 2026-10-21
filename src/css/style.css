@@ -1,6 +1,6 @@
 @import url("fonts.css");
 :root {
-  --bs-body-color: #00000;
+  --bs-body-color: #000000;
   --bs-body-bg: #fffce9;
   --bs-body-rgb: 255, 252, 233;
   --bs-primary: #380301;
@@ -105,6 +105,52 @@ body.navbar-scrolled header {
   object-fit: contain;
   max-height: 100vh;
   height: 70vh;
+  max-width: 100%;
+}
+
+#why .why-img {
+  height: auto;
+  max-height: 500px;
+  width: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  #home {
+    padding-top: 120px;
+  }
+
+  .jumbotron-img {
+    height: 50vh;
+  }
+
+  #navbar .nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 0.25rem;
+    font-size: 14px;
+  }
+
+  #navbar .nav-link {
+    padding: 0.35rem 0.55rem;
+  }
+
+  #collection .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  #collection .col > .item img {
+    height: 220px;
+  }
+
+  #product .content .title {
+    font-size: 1.15em;
+  }
+
+  #product .content .price {
+    font-size: 1.35em;
+  }
 }
 
 /* Collection */
@@ -151,7 +197,8 @@ body.navbar-scrolled header {
   padding-top: 56.25%;
 }
 
-.responsive-iframe {
+.responsive-iframe,
+.responsive-media {
   position: absolute;
   top: 0;
   left: 0;
@@ -167,6 +214,12 @@ body.navbar-scrolled header {
   width: 300%;
   height: 100%;
   margin-left: -100%;
+}
+
+#video .embed video.responsive-media {
+  object-fit: cover;
+  object-position: center;
+  pointer-events: none;
 }
 
 #video .embed .overlay {

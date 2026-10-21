@@ -17,8 +17,8 @@ $map = "https://maps.app.goo.gl/BzmX3ABjry2hfEGr8";
                     </a>
                 </div>
                 <div class="col-10">
-                    &copy; 2024 Kartini Creations<br />
-                    made with ❤ by <a href="https://www.instagram.com/ren.jofana" class="link-primary">Rendy</a>
+                    &copy; 2026 Kartini Creations<br />
+                    Site by <a href="https://www.instagram.com/ren.jofana" class="link-primary" target="_blank" rel="noopener noreferrer">Rendy</a>
 
                 </div>
             </div>
@@ -40,7 +40,7 @@ $map = "https://maps.app.goo.gl/BzmX3ABjry2hfEGr8";
 
 </body>
 <script type="text/javascript" src="src/dist/jquery.min.js"></script>
-<script type="text/javascript" src="src/dist/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="src/dist/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="src/dist/aos/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
 
