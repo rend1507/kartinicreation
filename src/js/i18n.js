@@ -51,11 +51,12 @@
       "product.hats": "Topi & kupluk",
       "product.sweater": "Sweater",
       "product.set": "Setelan lengkap",
+      "product.amigurumi": "Amigurumi",
+      "product.amigurumiAlt": "Boneka rajut amigurumi Kartini Creations",
       "product.from": "Mulai",
-      "product.note":
-        "Di toko juga ada boneka rajut / amigurumi (mulai ±Rp 55.000) dan baret.",
-      "product.tokopedia": "Lihat Tokopedia",
+      "product.tokopedia": "Tokopedia",
       "product.shopee": "Shopee",
+      "product.instagram": "Instagram",
       "gallery.title": "Galeri",
       "order.title": "Cara pesan",
       "order.lead":
@@ -153,11 +154,12 @@
       "product.hats": "Hats & beanies",
       "product.sweater": "Sweater",
       "product.set": "Full set",
+      "product.amigurumi": "Amigurumi",
+      "product.amigurumiAlt": "Hand-crocheted amigurumi from Kartini Creations",
       "product.from": "From",
-      "product.note":
-        "The shops also carry knitted plush / amigurumi (from about Rp 55,000) and berets.",
-      "product.tokopedia": "Open Tokopedia",
+      "product.tokopedia": "Tokopedia",
       "product.shopee": "Shopee",
+      "product.instagram": "Instagram",
       "gallery.title": "Gallery",
       "order.title": "How to order",
       "order.lead":

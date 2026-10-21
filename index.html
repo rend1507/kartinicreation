@@ -40,7 +40,7 @@
             </nav>
       </header>
 
-<section id="home">
+<section id="home" class="section-block">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 text-center" data-aos="fade-right">
@@ -63,10 +63,10 @@
     </div>
 </section>
 
-<section id="collection">
-    <div class="container rounded-4 bg-primary text-white px-4 px-md-5 pt-5" data-aos="fade-left">
+<section id="collection" class="section-block">
+    <div class="container rounded-4 bg-primary text-white px-4 px-md-5 pt-5 pb-2" data-aos="fade-left">
         <div class="row">
-            <div class="col-12 title-head">
+            <div class="col-12 title-head section-head">
                 <p class="mb-0" data-i18n="collection.eyebrow">Yang kami buat</p>
                 <h2 class="text-underline" data-i18n="collection.title">Topi, sweater, setelan</h2>
             </div>
@@ -107,10 +107,10 @@
     </div>
 </section>
 
-<section id="why" class="bg-primary text-light py-5">
+<section id="why" class="bg-primary text-light section-block">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-12 text-center mb-3">
+            <div class="col-12 text-center section-head">
                 <h2 class="text-uppercase fw-medium" data-i18n="why.title">Kenapa kami</h2>
             </div>
             <div class="col-12 col-md-6 my-auto" data-aos="fade-right">
@@ -130,10 +130,10 @@
     </div>
 </section>
 
-<section id="about">
+<section id="about" class="section-block">
   <div class="container">
     <div class="row text-center">
-      <div class="col-12">
+      <div class="col-12 section-head">
         <h2 class="title-head text-underline" data-i18n="about.title">Tentang kami</h2>
       </div>
       <div class="col-12 col-lg-10 mx-auto">
@@ -166,75 +166,93 @@
     </div>
 </section>
 
-<section id="product">
+<section id="product" class="section-block">
   <div class="container">
     <div class="row">
-      <div class="col-12">
-        <h2 class="title-head text-underline" data-i18n="product.title">Harga ready stock</h2>
-        <p class="text-body-secondary mb-4" data-i18n="product.lead">
-          Harga mulai dari listing Tokopedia (Oktober 2026). Stok dan total bayar cek di toko. Pre-order custom lewat WhatsApp atau Instagram.
+      <div class="col-12 section-head">
+        <h2 class="title-head text-underline" data-i18n="product.title">Harga stok siap</h2>
+        <p class="text-body-secondary mb-0" data-i18n="product.lead">
+          Harga mulai dari listing Tokopedia (Oktober 2026). Stok dan total bayar cek di toko. Pesanan sesuai permintaan lewat WhatsApp atau Instagram.
         </p>
       </div>
-      <div class="col-12 content">
+      <div class="col-12 content mt-4">
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
-            <div class="row">
-              <div class="col-12">
-                <img src="src/img/gallery/beanies-2.jpg" loading="lazy" alt="">
-              </div>
-              <div class="col-6">
+            <div class="product-card">
+              <img src="src/img/gallery/beanies-2.jpg" loading="lazy" alt="">
+              <div class="product-meta">
                 <p class="title" data-i18n="product.hats">Topi &amp; kupluk</p>
-              </div>
-              <div class="col-6 info">
-                <span data-i18n="product.from">Mulai</span>
-                <p class="price">Rp 75.000</p>
+                <div class="info">
+                  <span data-i18n="product.from">Mulai</span>
+                  <p class="price">Rp 75.000</p>
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="row">
-              <div class="col-12">
-                <img src="src/img/gallery/sweater-1.jpg" loading="lazy" alt="">
-              </div>
-              <div class="col-6">
+            <div class="product-card">
+              <img src="src/img/gallery/sweater-1.jpg" loading="lazy" alt="">
+              <div class="product-meta">
                 <p class="title" data-i18n="product.sweater">Sweater</p>
-              </div>
-              <div class="col-6 info">
-                <span data-i18n="product.from">Mulai</span>
-                <p class="price">Rp 550.000</p>
+                <div class="info">
+                  <span data-i18n="product.from">Mulai</span>
+                  <p class="price">Rp 550.000</p>
+                </div>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="row">
-              <div class="col-12">
-                <img src="src/img/gallery/full-1-3.jpg" loading="lazy" alt="">
-              </div>
-              <div class="col-6">
+            <div class="product-card">
+              <img src="src/img/gallery/full-1-3.jpg" loading="lazy" alt="">
+              <div class="product-meta">
                 <p class="title" data-i18n="product.set">Setelan lengkap</p>
-              </div>
-              <div class="col-6 info">
-                <span data-i18n="product.from">Mulai</span>
-                <p class="price">Rp 590.000</p>
+                <div class="info">
+                  <span data-i18n="product.from">Mulai</span>
+                  <p class="price">Rp 590.000</p>
+                </div>
               </div>
             </div>
+          </div>
+          <div class="col">
+            <div class="product-card">
+              <img src="src/img/product/amigurumi-1.jpg" loading="lazy" alt="" data-i18n-attr="alt:product.amigurumiAlt">
+              <div class="product-meta">
+                <p class="title" data-i18n="product.amigurumi">Amigurumi</p>
+                <div class="info">
+                  <span data-i18n="product.from">Mulai</span>
+                  <p class="price">Rp 55.000</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shop-tile">
+              <a href="https://www.tokopedia.com/kartinicreations" class="shop-half" target="_blank" rel="noopener noreferrer">
+                <img src="src/img/brand/tokopedia.svg" class="shop-icon" width="22" height="22" alt="">
+                <span data-i18n="product.tokopedia">Tokopedia</span>
+              </a>
+              <a href="https://shopee.co.id/kartini_creations" class="shop-half" target="_blank" rel="noopener noreferrer">
+                <img src="src/img/brand/shopee.svg" class="shop-icon" width="22" height="22" alt="">
+                <span data-i18n="product.shopee">Shopee</span>
+              </a>
+            </div>
+          </div>
+          <div class="col">
+            <a href="https://instagram.com/kartini_creations" class="shop-tile shop-tile-single" target="_blank" rel="noopener noreferrer">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+              <span data-i18n="product.instagram">Instagram</span>
+            </a>
           </div>
         </div>
-        <p class="text-body-secondary mt-4 mb-0">
-          <span data-i18n="product.note">Di toko juga ada boneka rajut / amigurumi (mulai ±Rp 55.000) dan baret.</span>
-          <a href="https://www.tokopedia.com/kartinicreations" target="_blank" rel="noopener noreferrer" data-i18n="product.tokopedia">Lihat Tokopedia</a>
-          ·
-          <a href="https://shopee.co.id/kartini_creations" target="_blank" rel="noopener noreferrer" data-i18n="product.shopee">Shopee</a>
-        </p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="gallery">
+<section id="gallery" class="section-block">
     <div class="container mb-3">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 section-head">
                 <h2 class="title-head text-underline" data-i18n="gallery.title">Galeri</h2>
             </div>
         </div>
@@ -301,12 +319,12 @@
     </div>
 </section>
 
-<section id="order" class="py-5">
+<section id="order" class="section-block">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center mb-4">
+      <div class="col-12 text-center section-head">
         <h2 class="title-head text-underline" data-i18n="order.title">Cara pesan</h2>
-        <p class="mb-0" data-i18n="order.lead">Ready stock: Shopee / Tokopedia. Pre-order custom: WhatsApp atau Instagram.</p>
+        <p class="mb-0" data-i18n="order.lead">Stok siap: Shopee / Tokopedia. Pesanan sesuai permintaan: WhatsApp atau Instagram.</p>
       </div>
     </div>
     <div class="row row-cols-1 row-cols-md-4 g-4 order-steps" data-aos="fade-up">
@@ -339,34 +357,34 @@
   </div>
 </section>
 
-<section id="faq" class="bg-primary text-light py-5">
+<section id="faq" class="section-block faq-light">
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center mb-4">
-        <h2 class="title-head text-underline text-white" data-i18n="faq.title">FAQ</h2>
+      <div class="col-12 text-center section-head">
+        <h2 class="title-head text-underline faq-title" data-i18n="faq.title">FAQ</h2>
       </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-12 col-lg-8 faq-list">
         <details>
-          <summary data-i18n="faq.1.q">Bisa custom ukuran dan warna?</summary>
+          <summary data-i18n="faq.1.q">Bisa pesan ukuran dan warna khusus?</summary>
           <p data-i18n="faq.1.a">Ya. Sampaikan ukuran, warna, jenis benang, dan motif. Kami konfirmasi dulu sebelum dikerjakan.</p>
         </details>
         <details>
           <summary data-i18n="faq.2.q">Berapa lama pengerjaan?</summary>
-          <p data-i18n="faq.2.a">Tergantung antrian dan tingkat custom. Tanya estimasi terkini lewat WhatsApp sebelum bayar.</p>
+          <p data-i18n="faq.2.a">Tergantung antrian dan seberapa khusus pesanannya. Tanya estimasi terkini lewat WhatsApp sebelum bayar.</p>
         </details>
         <details>
-          <summary data-i18n="faq.3.q">Harga di site final?</summary>
-          <p data-i18n="faq.3.a">Angka “mulai” mengikuti harga terendah ready stock di Tokopedia saat dicek (Oktober 2026). Harga di toko bisa berubah. Pre-order custom bisa beda; total ditulis di chat sebelum bayar.</p>
+          <summary data-i18n="faq.3.q">Harga di situs sudah final?</summary>
+          <p data-i18n="faq.3.a">Angka “mulai” mengikuti harga terendah stok siap di Tokopedia saat dicek (Oktober 2026). Harga di toko bisa berubah. Pesanan khusus bisa beda; total ditulis di chat sebelum bayar.</p>
         </details>
         <details>
           <summary data-i18n="faq.4.q">Bisa kirim luar kota?</summary>
-          <p data-i18n="faq.4.a">Ya. Ready stock ikut pengiriman Shopee/Tokopedia. Custom dikirim setelah selesai, atau diambil di Malang jika disepakati.</p>
+          <p data-i18n="faq.4.a">Ya. Stok siap ikut pengiriman Shopee/Tokopedia. Pesanan khusus dikirim setelah selesai, atau diambil di Malang jika disepakati.</p>
         </details>
         <details>
-          <summary data-i18n="faq.5.q">Order lewat mana?</summary>
-          <p data-i18n="faq.5.a">Ready stock: Shopee atau Tokopedia. Pre-order / custom: WhatsApp atau katalog Instagram. Semua link: linktr.ee/KartiniCreations</p>
+          <summary data-i18n="faq.5.q">Pesan lewat mana?</summary>
+          <p data-i18n="faq.5.a">Stok siap: Shopee atau Tokopedia. Pesanan sesuai permintaan: WhatsApp atau katalog Instagram. Semua link: linktr.ee/KartiniCreations</p>
         </details>
       </div>
     </div>
@@ -374,7 +392,7 @@
 </section>
 
 <section id="cta" class="bg-primary text-light">
-    <div class="container py-5 border-top border-light border-opacity-25">
+    <div class="container py-5">
         <div class="row align-items-center g-4">
             <div class="col-12 col-md-6">
                 <h5 class="mb-2" data-i18n="cta.eyebrow">Siap pesan?</h5>

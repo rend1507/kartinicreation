@@ -54,7 +54,21 @@ h6 {
 
 /* General */
 body > section:not(:first-child) {
-  margin-top: 2em;
+  margin-top: 0;
+}
+
+.section-block {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.section-head {
+  margin-bottom: 1.25rem;
+}
+
+.section-head .title-head,
+.section-head h2 {
+  margin-bottom: 0.5rem;
 }
 
 .title-head {
@@ -297,33 +311,89 @@ body.navbar-scrolled header {
 }
 
 /* Product */
-#product .content img {
+#product .product-card img {
   border-radius: 1.25em;
-
-  margin-bottom: 1em;
+  margin-bottom: 0.85rem;
   width: 100%;
   aspect-ratio: 1/1;
-
   object-fit: cover;
   object-position: top;
 }
 
+#product .product-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 0.75rem;
+}
+
 #product .content .title {
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1.25em;
   font-family: var(--font-serif);
   text-transform: uppercase;
   margin-bottom: 0;
 }
+
 #product .content .info {
   text-align: right;
+  flex-shrink: 0;
 }
+
 #product .content .price {
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: bold;
   font-family: var(--font-serif);
-
   margin-bottom: 0;
+}
+
+#product .shop-tile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 220px;
+  border-radius: 1.25em;
+  overflow: hidden;
+  background: var(--bs-primary);
+  color: #fff;
+}
+
+#product .shop-half,
+#product .shop-tile-single {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  padding: 1.25rem;
+  color: #fff;
+  text-decoration: none;
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: background 0.2s ease;
+}
+
+#product .shop-half + .shop-half {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#product .shop-half:hover,
+#product .shop-tile-single:hover {
+  background: var(--bs-primary-hover);
+  color: #fff;
+}
+
+#product .shop-icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  filter: invert(1);
+  flex-shrink: 0;
+}
+
+#product .shop-tile-single i {
+  font-size: 1.5rem;
 }
 
 /* Order steps */
@@ -344,9 +414,19 @@ body.navbar-scrolled header {
   color: #333;
 }
 
-/* FAQ */
+/* FAQ — light surface, brown title (theme primary) */
+#faq.faq-light {
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+  padding-bottom: 1.5rem;
+}
+
+#faq .faq-title {
+  color: var(--bs-primary);
+}
+
 #faq .faq-list details {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 1px solid rgba(var(--bs-primary-rgb), 0.2);
   padding: 0.85rem 0;
 }
 
@@ -355,6 +435,7 @@ body.navbar-scrolled header {
   font-family: var(--font-serif);
   font-size: 1.15rem;
   font-weight: 600;
+  color: var(--bs-primary);
   list-style: none;
 }
 
@@ -366,6 +447,7 @@ body.navbar-scrolled header {
   content: "+";
   float: right;
   font-weight: 400;
+  color: var(--bs-primary);
 }
 
 #faq .faq-list details[open] summary::after {
@@ -374,7 +456,11 @@ body.navbar-scrolled header {
 
 #faq .faq-list details p {
   margin: 0.75rem 0 0.25rem;
-  opacity: 0.9;
+  color: #333;
+}
+
+#cta {
+  margin-top: 0;
 }
 
 #cta .icon {
