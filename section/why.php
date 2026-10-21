@@ -6,11 +6,10 @@
             </div>
             <div class="col-12 col-md-6 my-auto" data-aos="fade-right">
                 <ul>
-                    <li><strong>Handmade by Putri Kapandeyan:</strong> Each piece is knit or crocheted by the founder, so no two orders are identical.</li>
-                    <li><strong>Made to your specs:</strong> Pick size, color, yarn, and pattern before we start.</li>
-                    <li><strong>Solid materials:</strong> We use yarns chosen for comfort and everyday wear, not disposable fashion.</li>
-                    <li><strong>Local craft, Malang:</strong> Ordering here supports a home-based Indonesian maker, not a mass factory.</li>
-                    <li><strong>On demand:</strong> We make when you order, which keeps leftover stock low.</li>
+                    <li><strong>Handmade by Putri Kapandeyan:</strong> Each order is knit or crocheted by the founder in Malang.</li>
+                    <li><strong>Custom before we start:</strong> Size, color, yarn, and pattern are agreed first.</li>
+                    <li><strong>Everyday yarns:</strong> Chosen for comfort and regular wear.</li>
+                    <li><strong>Made on demand:</strong> We start after you order, so leftover stock stays low.</li>
                 </ul>
 
                 <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/kartini_creations" class="float-md-end btn btn-light rounded-pill">Follow on Instagram</a>

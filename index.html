@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
-      <title>Kartini Creations | Hand-knit &amp; crochet · Malang</title>
+      <title>Kartini Creations | Rajutan handmade · Malang</title>
 
       <meta charset="UTF-8">
-      <meta name="description" content="Kartini Creations: custom hand-knit and crochet wearables by Putri Kapandeyan in Malang, Indonesia. Sweaters, beanies, and full sets. Order via WhatsApp, Shopee, or Tokopedia.">
-      <meta name="keywords" content="kartini creations, handknit, crochet, custom knitwear, beanie, sweater, Malang">
+      <meta name="description" content="Kartini Creations, Malang: rajutan handmade. Ready stock di Shopee/Tokopedia (topi dari Rp75rb, sweater dari Rp550rb). Pre-order custom via WhatsApp.">
+      <meta name="keywords" content="kartini creations, rajut, crochet, beanie, sweater, Malang, handmade">
       <meta name="author" content="Rendy Yofana Kusuma">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta property="og:title" content="Kartini Creations | Hand-knit &amp; crochet">
-      <meta property="og:description" content="Custom knitwear and crochet from Malang. Made to order by Putri Kapandeyan.">
+      <meta property="og:title" content="Kartini Creations">
+      <meta property="og:description" content="Handmade knitwear from Malang by Putri Kapandeyan.">
       <meta property="og:type" content="website">
       <link rel="icon" type="image/jpeg" href="src/img/icon-kartini-square-bg.jpg">
 
@@ -21,18 +21,21 @@
 
 <body class="d-flex flex-column h-100" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -150px" data-bs-smooth-scroll="true" data-aos-easing="ease" data-aos-duration="1200" data-aos-delay="0">
       <header class="pt-3 pb-1 fixed-top">
+            <div class="lang-switch" role="group" aria-label="Language">
+                  <button type="button" class="lang-btn" data-lang-btn="id" aria-pressed="true">ID</button>
+                  <span class="lang-sep" aria-hidden="true">|</span>
+                  <button type="button" class="lang-btn" data-lang-btn="en" aria-pressed="false">EN</button>
+            </div>
             <div id="logo-navbar" role="img" aria-label="Kartini Creations"></div>
 
-            <nav id="navbar" class="navbar d-flex justify-content-center" aria-label="Primary">
+            <nav id="navbar" class="navbar d-flex justify-content-center" data-i18n-attr="aria-label:nav.aria">
                   <ul class="nav nav-pills">
-                        <li class="nav-item"><a href="#home" class="nav-link" aria-current="page">Home</a></li>
-                        <li class="nav-item"><a href="#collection" class="nav-link">Collection</a></li>
-                        <li class="nav-item"><a href="#why" class="nav-link">Why Us</a></li>
-                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="#video" class="nav-link">Video</a></li>
-                        <li class="nav-item"><a href="#product" class="nav-link">Product</a></li>
-                        <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
-                        <li class="nav-item"><a href="#cta" class="nav-link">Contact</a></li>
+                        <li class="nav-item"><a href="#home" class="nav-link" aria-current="page" data-i18n="nav.home">Beranda</a></li>
+                        <li class="nav-item"><a href="#collection" class="nav-link" data-i18n="nav.collection">Koleksi</a></li>
+                        <li class="nav-item"><a href="#product" class="nav-link" data-i18n="nav.product">Produk</a></li>
+                        <li class="nav-item"><a href="#order" class="nav-link" data-i18n="nav.order">Pesan</a></li>
+                        <li class="nav-item"><a href="#faq" class="nav-link" data-i18n="nav.faq">FAQ</a></li>
+                        <li class="nav-item"><a href="#cta" class="nav-link" data-i18n="nav.contact">Kontak</a></li>
                   </ul>
             </nav>
       </header>
@@ -41,19 +44,19 @@
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 text-center" data-aos="fade-right">
-                <img src="src/img/person/jumbotron-1.png" class="jumbotron-img" width="600" height="800" alt="Model wearing a lavender hand-knit sweater and beanie from Kartini Creations">
+                <img src="src/img/person/jumbotron-1.png" class="jumbotron-img" width="600" height="800" data-i18n-attr="alt:hero.imgAlt" alt="Model memakai sweater dan topi rajut lavender dari Kartini Creations">
             </div>
 
             <div class="col-12 col-md-6 text-center mt-3 text-md-start my-md-auto" data-aos="fade-left">
                 <div class="title-head">
-                    <h4>Hand-knit in Malang</h4>
-                    <h1 class="h3 fw-bold">Knitwear made for how you live</h1>
+                    <h4 data-i18n="hero.eyebrow">Rajutan tangan di Malang</h4>
+                    <h1 class="h3 fw-bold" data-i18n="hero.title">Rajutan custom, dibuat sesuai pesanan</h1>
                 </div>
-                <p>
-                    Rajutan custom: ukuran, warna, dan motif sesuai permintaan.
+                <p data-i18n="hero.body">
+                    Ukuran, warna, dan motif bisa disesuaikan. Dari topi sampai setelan lengkap.
                 </p>
-                <a href="https://wa.me/6281805185485" class="btn btn-primary rounded-pill" target="_blank" rel="noopener noreferrer">
-                    Pesan Sekarang
+                <a href="#order" class="btn btn-primary rounded-pill" data-i18n="hero.cta">
+                    Cara pesan
                 </a>
             </div>
         </div>
@@ -64,41 +67,41 @@
     <div class="container rounded-4 bg-primary text-white px-4 px-md-5 pt-5" data-aos="fade-left">
         <div class="row">
             <div class="col-12 title-head">
-                <p class="mb-0">Pieces for everyday wear</p>
-                <h2 class="text-underline">Beanies, sweaters, sets</h2>
+                <p class="mb-0" data-i18n="collection.eyebrow">Yang kami buat</p>
+                <h2 class="text-underline" data-i18n="collection.title">Topi, sweater, setelan</h2>
             </div>
         </div>
         <div class="row row-cols-1 row-cols-md-3 align-items-center g-4 justify-content-center">
             <div class="col" data-aos="fade-up" data-aos-delay="300">
                 <div class="item">
-                    <img src="src/img/product/product-1.jpg" class="img-fluid" loading="lazy" alt="Green hand-knitted beanie">
-                    <div class="caption d-flex flex-column align-items-center justify-content-center">
-                        Hand-knitted beanie (green)
+                    <img src="src/img/product/product-1.jpg" class="img-fluid" loading="lazy" alt="">
+                    <div class="caption d-flex flex-column align-items-center justify-content-center" data-i18n="collection.cap1">
+                        Topi rajut hijau
                     </div>
                 </div>
             </div>
 
             <div class="col" data-aos="fade-up" data-aos-delay="400">
                 <div class="item">
-                    <img src="src/img/product/product-2.jpg" class="img-fluid" loading="lazy" alt="Red beanie and grey turtleneck sweater">
-                    <div class="caption d-flex flex-column align-items-center justify-content-center">
-                        Red beanie &amp; grey turtleneck sweater
+                    <img src="src/img/product/product-2.jpg" class="img-fluid" loading="lazy" alt="">
+                    <div class="caption d-flex flex-column align-items-center justify-content-center" data-i18n="collection.cap2">
+                        Topi merah &amp; sweater turtleneck abu
                     </div>
                 </div>
             </div>
 
             <div class="col" data-aos="fade-up" data-aos-delay="500">
                 <div class="item">
-                    <img src="src/img/product/product-3.jpg" class="img-fluid" loading="lazy" alt="Lavender sweater and beanie set">
-                    <div class="caption d-flex flex-column align-items-center justify-content-center">
-                        Sweater and beanie set (lavender)
+                    <img src="src/img/product/product-3.jpg" class="img-fluid" loading="lazy" alt="">
+                    <div class="caption d-flex flex-column align-items-center justify-content-center" data-i18n="collection.cap3">
+                        Setelan sweater dan topi lavender
                     </div>
                 </div>
             </div>
         </div>
         <div class="row justify-content-end py-3" data-aos="fade" data-aos-delay="700">
             <div class="col-12 text-end">
-                <a href="#gallery" class="btn btn-light rounded-pill mb-0">See gallery</a>
+                <a href="#gallery" class="btn btn-light rounded-pill mb-0" data-i18n="collection.cta">Lihat galeri</a>
             </div>
         </div>
     </div>
@@ -108,21 +111,20 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-12 text-center mb-3">
-                <h2 class="text-uppercase fw-medium">Why us</h2>
+                <h2 class="text-uppercase fw-medium" data-i18n="why.title">Kenapa kami</h2>
             </div>
             <div class="col-12 col-md-6 my-auto" data-aos="fade-right">
                 <ul>
-                    <li><strong>Handmade by Putri Kapandeyan:</strong> Each piece is knit or crocheted by the founder, so no two orders are identical.</li>
-                    <li><strong>Made to your specs:</strong> Pick size, color, yarn, and pattern before we start.</li>
-                    <li><strong>Solid materials:</strong> We use yarns chosen for comfort and everyday wear, not disposable fashion.</li>
-                    <li><strong>Local craft, Malang:</strong> Ordering here supports a home-based Indonesian maker, not a mass factory.</li>
-                    <li><strong>On demand:</strong> We make when you order, which keeps leftover stock low.</li>
+                    <li data-i18n="why.1" data-i18n-html><strong>Dikerjakan Putri Kapandeyan:</strong> Setiap pesanan dirajut atau dikrochet oleh pendiri di Malang.</li>
+                    <li data-i18n="why.2" data-i18n-html><strong>Detail disepakati dulu:</strong> Ukuran, warna, benang, dan motif dikonfirmasi sebelum mulai.</li>
+                    <li data-i18n="why.3" data-i18n-html><strong>Benang untuk dipakai sehari-hari:</strong> Dipilih agar nyaman dipakai rutin.</li>
+                    <li data-i18n="why.4" data-i18n-html><strong>Dibuat setelah ada pesanan:</strong> Kami mulai setelah Anda pesan, jadi stok sisa tetap rendah.</li>
                 </ul>
 
-                <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/kartini_creations" class="float-md-end btn btn-light rounded-pill">Follow on Instagram</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/kartini_creations" class="float-md-end btn btn-light rounded-pill" data-i18n="why.cta">Ikuti Instagram</a>
             </div>
             <div class="col-12 col-md-6 text-center mt-4 mt-md-0" data-aos="fade-left">
-                <img class="why-img" src="src/img/person/why-1.png" width="400" height="500" loading="lazy" alt="Putri Kapandeyan with Kartini Creations knitwear">
+                <img class="why-img" src="src/img/person/why-1.png" width="400" height="500" loading="lazy" data-i18n-attr="alt:why.imgAlt" alt="Putri Kapandeyan bersama produk Kartini Creations">
             </div>
         </div>
     </div>
@@ -132,18 +134,16 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-12">
-        <h2 class="title-head text-underline">About us</h2>
+        <h2 class="title-head text-underline" data-i18n="about.title">Tentang kami</h2>
       </div>
       <div class="col-12 col-lg-10 mx-auto">
-        <p>
-          Kartini Creations makes custom knitwear and crochet pieces in Malang, Indonesia.
-          Founder Putri Kapandeyan works each order by hand: sweater, beanie, accessory, or a full set.
+        <p data-i18n="about.p1">
+          Kartini Creations adalah brand rajut dan crochet rumahan di Malang, Indonesia. Putri Kapandeyan mengerjakan setiap potongan dengan tangan: topi, sweater, aksesori, atau setelan lengkap.
         </p>
-        <p>
-          Tell us the size, color, yarn, and pattern you want. We build the piece around that brief,
-          with designs that sit between traditional craft and everyday wear.
+        <p data-i18n="about.p2">
+          Sampaikan ukuran, warna, benang, dan motif yang Anda mau. Kami konfirmasi brief sebelum mulai merajut.
         </p>
-        <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/kartini_creations" class="btn btn-primary rounded-pill">See more on Instagram</a>
+        <a href="#order" class="btn btn-primary rounded-pill" data-i18n="about.cta">Lihat cara pesan</a>
       </div>
     </div>
   </div>
@@ -153,13 +153,14 @@
     <div class="embed">
         <video class="responsive-media" autoplay muted loop playsinline preload="metadata"
             poster="src/video/process-triptych-poster.jpg"
-            aria-label="Process behind Kartini Creations">
+            data-i18n-attr="aria-label:video.title"
+            aria-label="Proses di balik Kartini Creations">
             <source src="src/video/process-triptych.mp4" type="video/mp4">
         </video>
         <div class="overlay">
             <div class="text">
-                <h3 class="text-uppercase fw-medium">Process behind Kartini Creations</h3>
-                <p>Real comfort in every hand-knit piece</p>
+                <h3 class="text-uppercase fw-medium" data-i18n="video.title">Proses di balik Kartini Creations</h3>
+                <p data-i18n="video.sub">Nyaman terasa di setiap helai rajutan</p>
             </div>
         </div>
     </div>
@@ -169,53 +170,62 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2 class="title-head text-underline">Choose your piece</h2>
+        <h2 class="title-head text-underline" data-i18n="product.title">Harga ready stock</h2>
+        <p class="text-body-secondary mb-4" data-i18n="product.lead">
+          Harga mulai dari listing Tokopedia (Oktober 2026). Stok dan total bayar cek di toko. Pre-order custom lewat WhatsApp atau Instagram.
+        </p>
       </div>
       <div class="col-12 content">
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="row">
               <div class="col-12">
-                <img src="src/img/gallery/sweater-1.jpg" loading="lazy" alt="Hand-knit sweater sample">
+                <img src="src/img/gallery/beanies-2.jpg" loading="lazy" alt="">
               </div>
               <div class="col-6">
-                <p class="title">Sweater</p>
+                <p class="title" data-i18n="product.hats">Topi &amp; kupluk</p>
               </div>
               <div class="col-6 info">
-                From
-                <p class="price">Rp 140.000</p>
+                <span data-i18n="product.from">Mulai</span>
+                <p class="price">Rp 75.000</p>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="row">
               <div class="col-12">
-                <img src="src/img/gallery/beanies-2.jpg" loading="lazy" alt="Hand-knit beanie sample">
+                <img src="src/img/gallery/sweater-1.jpg" loading="lazy" alt="">
               </div>
               <div class="col-6">
-                <p class="title">Beanies</p>
+                <p class="title" data-i18n="product.sweater">Sweater</p>
               </div>
               <div class="col-6 info">
-                From
-                <p class="price">Rp 30.000</p>
+                <span data-i18n="product.from">Mulai</span>
+                <p class="price">Rp 550.000</p>
               </div>
             </div>
           </div>
           <div class="col">
             <div class="row">
               <div class="col-12">
-                <img src="src/img/gallery/full-1-3.jpg" loading="lazy" alt="Full knitwear set sample">
+                <img src="src/img/gallery/full-1-3.jpg" loading="lazy" alt="">
               </div>
               <div class="col-6">
-                <p class="title">Full set</p>
+                <p class="title" data-i18n="product.set">Setelan lengkap</p>
               </div>
               <div class="col-6 info">
-                From
-                <p class="price">Rp 250.000</p>
+                <span data-i18n="product.from">Mulai</span>
+                <p class="price">Rp 590.000</p>
               </div>
             </div>
           </div>
         </div>
+        <p class="text-body-secondary mt-4 mb-0">
+          <span data-i18n="product.note">Di toko juga ada boneka rajut / amigurumi (mulai ±Rp 55.000) dan baret.</span>
+          <a href="https://www.tokopedia.com/kartinicreations" target="_blank" rel="noopener noreferrer" data-i18n="product.tokopedia">Lihat Tokopedia</a>
+          ·
+          <a href="https://shopee.co.id/kartini_creations" target="_blank" rel="noopener noreferrer" data-i18n="product.shopee">Shopee</a>
+        </p>
       </div>
     </div>
   </div>
@@ -225,7 +235,7 @@
     <div class="container mb-3">
         <div class="row">
             <div class="col-12">
-                <h2 class="title-head text-underline">Gallery</h2>
+                <h2 class="title-head text-underline" data-i18n="gallery.title">Galeri</h2>
             </div>
         </div>
     </div>
@@ -233,89 +243,159 @@
         <div class="row row-cols-2 row-cols-md-4" data-aos="fade">
             <div class="col">
                 <a href="src/img/gallery/beanies-1.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/beanies-1.jpg" class="img-fluid" loading="lazy" alt="Beanie gallery 1">
+                    <img src="src/img/gallery/beanies-1.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
                 <a href="src/img/gallery/beanies-2.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/beanies-2.jpg" class="img-fluid" loading="lazy" alt="Beanie gallery 2">
+                    <img src="src/img/gallery/beanies-2.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
                 <a href="src/img/gallery/beanies-3.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/beanies-3.jpg" class="img-fluid" loading="lazy" alt="Beanie gallery 3">
+                    <img src="src/img/gallery/beanies-3.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
                 <a href="src/img/gallery/beanies-4.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/beanies-4.jpg" class="img-fluid" loading="lazy" alt="Beanie gallery 4">
+                    <img src="src/img/gallery/beanies-4.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
             </div>
 
             <div class="col">
                 <a href="src/img/gallery/full-1.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/full-1.jpg" class="img-fluid" loading="lazy" alt="Full set gallery 1">
+                    <img src="src/img/gallery/full-1.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
                 <a href="src/img/gallery/full-2.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/full-2.jpg" class="img-fluid" loading="lazy" alt="Full set gallery 2">
+                    <img src="src/img/gallery/full-2.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
                 <a href="src/img/gallery/full-3.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/full-3.jpg" class="img-fluid" loading="lazy" alt="Full set gallery 3">
+                    <img src="src/img/gallery/full-3.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
                 <a href="src/img/gallery/full-4.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/full-4.jpg" class="img-fluid" loading="lazy" alt="Full set gallery 4">
+                    <img src="src/img/gallery/full-4.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
             </div>
 
             <div class="col">
                 <a href="src/img/gallery/full-1-1.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/full-1-1.jpg" class="img-fluid" loading="lazy" alt="Knitwear detail 1">
+                    <img src="src/img/gallery/full-1-1.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
                 <a href="src/img/gallery/full-1-2.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/full-1-2.jpg" class="img-fluid" loading="lazy" alt="Knitwear detail 2">
+                    <img src="src/img/gallery/full-1-2.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
                 <a href="src/img/gallery/full-1-3.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/full-1-3.jpg" class="img-fluid" loading="lazy" alt="Knitwear detail 3">
+                    <img src="src/img/gallery/full-1-3.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
                 <a href="src/img/gallery/full-1-4.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/full-1-4.jpg" class="img-fluid" loading="lazy" alt="Knitwear detail 4">
+                    <img src="src/img/gallery/full-1-4.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
             </div>
 
             <div class="col">
                 <a href="src/img/gallery/sweater-1.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/sweater-1.jpg" class="img-fluid" loading="lazy" alt="Sweater gallery 1">
+                    <img src="src/img/gallery/sweater-1.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
                 <a href="src/img/gallery/sweater-2.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/sweater-2.jpg" class="img-fluid" loading="lazy" alt="Sweater gallery 2">
+                    <img src="src/img/gallery/sweater-2.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
                 <a href="src/img/gallery/sweater-3.jpg" data-toggle="lightbox" data-gallery="kartini">
-                    <img src="src/img/gallery/sweater-3.jpg" class="img-fluid" loading="lazy" alt="Sweater gallery 3">
+                    <img src="src/img/gallery/sweater-3.jpg" class="img-fluid" loading="lazy" alt="">
                 </a>
             </div>
         </div>
     </div>
 </section>
 
+<section id="order" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h2 class="title-head text-underline" data-i18n="order.title">Cara pesan</h2>
+        <p class="mb-0" data-i18n="order.lead">Ready stock: Shopee / Tokopedia. Pre-order custom: WhatsApp atau Instagram.</p>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-4 g-4 order-steps" data-aos="fade-up">
+      <div class="col">
+        <p class="step-num">01</p>
+        <h3 class="h5" data-i18n="order.1.title">Pilih jalur</h3>
+        <p data-i18n="order.1.body">Ambil ready stock di toko online, atau pre-order custom lewat chat.</p>
+      </div>
+      <div class="col">
+        <p class="step-num">02</p>
+        <h3 class="h5" data-i18n="order.2.title">Konfirmasi detail</h3>
+        <p data-i18n="order.2.body">Untuk custom: ukuran, warna, benang, dan motif disepakati dulu.</p>
+      </div>
+      <div class="col">
+        <p class="step-num">03</p>
+        <h3 class="h5" data-i18n="order.3.title">Bayar</h3>
+        <p data-i18n="order.3.body">Ready stock bayar di checkout toko. Custom: ikut instruksi DP di chat.</p>
+      </div>
+      <div class="col">
+        <p class="step-num">04</p>
+        <h3 class="h5" data-i18n="order.4.title">Terima pesanan</h3>
+        <p data-i18n="order.4.body">Dikirim ke alamat Anda, atau diambil di Malang jika disepakati.</p>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-12 text-center">
+        <a href="https://wa.me/6281805185485?text=Halo%20Kartini%20Creations%2C%20saya%20ingin%20pesan%20rajutan." class="btn btn-primary rounded-pill" target="_blank" rel="noopener noreferrer" data-i18n="order.cta" data-i18n-attr="href:order.wa">Chat WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" class="bg-primary text-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-4">
+        <h2 class="title-head text-underline text-white" data-i18n="faq.title">FAQ</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8 faq-list">
+        <details>
+          <summary data-i18n="faq.1.q">Bisa custom ukuran dan warna?</summary>
+          <p data-i18n="faq.1.a">Ya. Sampaikan ukuran, warna, jenis benang, dan motif. Kami konfirmasi dulu sebelum dikerjakan.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.2.q">Berapa lama pengerjaan?</summary>
+          <p data-i18n="faq.2.a">Tergantung antrian dan tingkat custom. Tanya estimasi terkini lewat WhatsApp sebelum bayar.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.3.q">Harga di site final?</summary>
+          <p data-i18n="faq.3.a">Angka “mulai” mengikuti harga terendah ready stock di Tokopedia saat dicek (Oktober 2026). Harga di toko bisa berubah. Pre-order custom bisa beda; total ditulis di chat sebelum bayar.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.4.q">Bisa kirim luar kota?</summary>
+          <p data-i18n="faq.4.a">Ya. Ready stock ikut pengiriman Shopee/Tokopedia. Custom dikirim setelah selesai, atau diambil di Malang jika disepakati.</p>
+        </details>
+        <details>
+          <summary data-i18n="faq.5.q">Order lewat mana?</summary>
+          <p data-i18n="faq.5.a">Ready stock: Shopee atau Tokopedia. Pre-order / custom: WhatsApp atau katalog Instagram. Semua link: linktr.ee/KartiniCreations</p>
+        </details>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section id="cta" class="bg-primary text-light">
-    <div class="container py-5">
+    <div class="container py-5 border-top border-light border-opacity-25">
         <div class="row align-items-center g-4">
             <div class="col-12 col-md-6">
-                <h5 class="mb-2">Ready to order?</h5>
-                <h3 class="fw-bold mb-0">
-                    Chat on WhatsApp<br>or open the online shop.
-                </h3>
+                <h5 class="mb-2" data-i18n="cta.eyebrow">Siap pesan?</h5>
+                <h3 class="fw-bold mb-0" data-i18n="cta.title" data-i18n-html>Ready stock di toko online.<br>Custom lewat WhatsApp.</h3>
             </div>
             <div class="col-12 col-md-6 text-center contacts-list">
                 <div class="row row-cols-1 g-3">
                     <a href="https://shopee.co.id/kartini_creations" class="btn btn-outline-light rounded-pill w-100" target="_blank" rel="noopener noreferrer">
-                        <img src="src/img/brand/shopee.svg" class="icon me-2" width="16" height="16" alt="">Shopee
+                        <img src="src/img/brand/shopee.svg" class="icon me-2" width="16" height="16" alt=""><span data-i18n="cta.shopee">Shopee · ready stock</span>
                     </a>
                     <a href="https://www.tokopedia.com/kartinicreations" class="btn btn-outline-light rounded-pill w-100" target="_blank" rel="noopener noreferrer">
-                        <img src="src/img/brand/tokopedia.svg" class="icon" width="16" height="16" alt=""> Tokopedia
+                        <img src="src/img/brand/tokopedia.svg" class="icon" width="16" height="16" alt=""> <span data-i18n="cta.tokopedia">Tokopedia · ready stock</span>
                     </a>
                     <a href="https://instagram.com/kartini_creations" class="btn btn-outline-light rounded-pill w-100" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-instagram" aria-hidden="true"></i> Instagram
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i> <span data-i18n="cta.instagram">Instagram · pre-order</span>
                     </a>
-                    <a href="https://www.facebook.com/profile.php?id=100089881518068" class="btn btn-outline-light rounded-pill w-100" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-facebook" aria-hidden="true"></i> Facebook
+                    <a href="https://linktr.ee/KartiniCreations" class="btn btn-outline-light rounded-pill w-100" target="_blank" rel="noopener noreferrer">
+                        <span data-i18n="cta.linktree">Linktree · semua link</span>
                     </a>
-                    <a href="https://wa.me/6281805185485" class="btn btn-light rounded-pill w-100" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> WhatsApp
+                    <a href="https://wa.me/6281805185485?text=Halo%20Kartini%20Creations%2C%20saya%20ingin%20tanya%20produk." class="btn btn-light rounded-pill w-100" target="_blank" rel="noopener noreferrer" data-i18n-attr="href:cta.waHref">
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i> <span data-i18n="cta.wa">WhatsApp</span>
                     </a>
                 </div>
             </div>
@@ -334,20 +414,19 @@
                 </div>
                 <div class="col">
                     © 2026 Kartini Creations<br>
-                    Site by <a href="https://www.instagram.com/ren.jofana" class="link-primary" target="_blank" rel="noopener noreferrer">Rendy</a>
+                    <span data-i18n="footer.by">Dibuat oleh</span> <a href="https://www.instagram.com/ren.jofana" class="link-primary" target="_blank" rel="noopener noreferrer">Rendy</a>
                 </div>
             </div>
         </div>
 
-        <ul class="nav col-md-8 justify-content-end">
-            <li class="nav-item"><a href="#home" class="nav-link text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#collection" class="nav-link text-body-secondary">Collection</a></li>
-            <li class="nav-item"><a href="#why" class="nav-link text-body-secondary">Why Us</a></li>
-            <li class="nav-item"><a href="#about" class="nav-link text-body-secondary">About</a></li>
-            <li class="nav-item"><a href="#video" class="nav-link text-body-secondary">Video</a></li>
-            <li class="nav-item"><a href="#gallery" class="nav-link text-body-secondary">Gallery</a></li>
-            <li class="nav-item"><a href="#product" class="nav-link text-body-secondary">Product</a></li>
-            <li class="nav-item"><a href="#cta" class="nav-link text-body-secondary">Contact</a></li>
+        <ul class="nav col-md-8 justify-content-end flex-wrap">
+            <li class="nav-item"><a href="#home" class="nav-link text-body-secondary" data-i18n="nav.home">Beranda</a></li>
+            <li class="nav-item"><a href="#collection" class="nav-link text-body-secondary" data-i18n="nav.collection">Koleksi</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link text-body-secondary" data-i18n="nav.about">Tentang</a></li>
+            <li class="nav-item"><a href="#product" class="nav-link text-body-secondary" data-i18n="nav.product">Produk</a></li>
+            <li class="nav-item"><a href="#order" class="nav-link text-body-secondary" data-i18n="nav.order">Pesan</a></li>
+            <li class="nav-item"><a href="#faq" class="nav-link text-body-secondary" data-i18n="nav.faq">FAQ</a></li>
+            <li class="nav-item"><a href="#cta" class="nav-link text-body-secondary" data-i18n="nav.contact">Kontak</a></li>
         </ul>
     </div>
 </footer>
@@ -356,6 +435,7 @@
 <script src="src/dist/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="src/dist/aos/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+<script src="src/js/i18n.js"></script>
 <script src="src/js/script.js"></script>
 
 </body>

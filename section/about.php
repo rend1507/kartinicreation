@@ -6,14 +6,13 @@
       </div>
       <div class="col-12 col-lg-10 mx-auto">
         <p>
-          Kartini Creations makes custom knitwear and crochet pieces in Malang, Indonesia.
-          Founder Putri Kapandeyan works each order by hand: sweater, beanie, accessory, or a full set.
+          Kartini Creations is a home-based knit and crochet brand in Malang, Indonesia.
+          Putri Kapandeyan makes each piece by hand: beanie, sweater, accessory, or full set.
         </p>
         <p>
-          Tell us the size, color, yarn, and pattern you want. We build the piece around that brief,
-          with designs that sit between traditional craft and everyday wear.
+          Share the size, color, yarn, and pattern you want. We confirm the brief before knitting starts.
         </p>
-        <a target="_blank" rel="noopener noreferrer" href="https://instagram.com/kartini_creations" class="btn btn-primary rounded-pill">See more on Instagram</a>
+        <a href="#order" class="btn btn-primary rounded-pill">See how to order</a>
       </div>
     </div>
   </div>

@@ -8,13 +8,14 @@
             <div class="col-12 col-md-6 text-center mt-3 text-md-start my-md-auto" data-aos="fade-left">
                 <div class="title-head">
                     <h4>Hand-knit in Malang</h4>
-                    <h1 class="h3 fw-bold">Knitwear made for how you live</h1>
+                    <h1 class="h3 fw-bold">Custom knitwear, made to order</h1>
                 </div>
                 <p>
                     Rajutan custom: ukuran, warna, dan motif sesuai permintaan.
+                    Mulai dari beanie sampai full set.
                 </p>
-                <a href="https://wa.me/6281805185485" class="btn btn-primary rounded-pill" target="_blank" rel="noopener noreferrer">
-                    Pesan Sekarang
+                <a href="#order" class="btn btn-primary rounded-pill">
+                    Cara pesan
                 </a>
             </div>
         </div>
