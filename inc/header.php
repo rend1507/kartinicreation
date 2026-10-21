@@ -29,11 +29,9 @@
                   <ul class="nav nav-pills">
                         <li class="nav-item"><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
                         <li class="nav-item"><a href="#collection" class="nav-link">Collection</a></li>
-                        <li class="nav-item"><a href="#why" class="nav-link">Why Us</a></li>
-                        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                        <li class="nav-item"><a href="#video" class="nav-link">Video</a></li>
-                        <li class="nav-item"><a href="#product" class="nav-link">Product</a></li>
-                        <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                        <li class="nav-item"><a href="#product" class="nav-link">Pieces</a></li>
+                        <li class="nav-item"><a href="#order" class="nav-link">Order</a></li>
+                        <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
                         <li class="nav-item"><a href="#cta" class="nav-link">Contact</a></li>
                   </ul>
             </nav>
