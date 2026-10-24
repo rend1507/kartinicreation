@@ -11,7 +11,7 @@
                     <h1 class="h3 fw-bold">Rajutan handmade, dikerjakan dengan teliti di Malang.</h1>
                 </div>
                 <p>
-                    Rajutan tangan untuk momen sehari-hari. Pilih stok siap pakai, atau buat yang unik dengan ukuran dan warna sesuai Anda.
+                    Setiap jahitan punya cerita. Temukan rajutan handmade favorit Anda—dibuat dengan teliti untuk kehangatan, kenyamanan, dan sentuhan personal di gaya sehari-hari.
                 </p>
                 <a href="#collection" class="btn btn-primary rounded-pill">
                     Lihat Koleksi

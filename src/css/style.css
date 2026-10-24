@@ -8,10 +8,16 @@
   --bs-primary-rgb: 56, 3, 1;
 
   --radius: 1.5em;
+  --header-offset: 120px;
 
   --font-serif: "Crimson Text", "Times", serif;
   --font-sans-serif: "Noto Sans", "Roboto Condensed", "Arial", sans-serif;
 }
+
+html {
+  scroll-padding-top: var(--header-offset);
+}
+
 body {
   font-family: var(--font-sans-serif);
 }
@@ -40,6 +46,15 @@ h6 {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: var(--bs-primary);
   --bs-btn-disabled-border-color: var(--bs-primary);
+}
+
+/* Tombol <a class="btn"> jangan ikut style link teks */
+a.btn,
+a.btn:hover,
+a.btn:focus,
+a.btn:active,
+a.btn:visited {
+  text-decoration: none !important;
 }
 
 /* CUSTOM */
@@ -76,12 +91,33 @@ body > section:not(:first-child) {
   font-weight: 600;
 }
 
-/* Language switch */
-.lang-switch {
-  position: absolute;
-  top: 0.75rem;
-  right: 1rem;
+/* Header bar */
+header {
+  position: relative;
   z-index: 1030;
+  background-color: rgba(var(--bs-body-rgb), 0.92);
+  backdrop-filter: blur(6px);
+}
+
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.35rem 1rem 0.15rem;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  flex-shrink: 0;
+}
+
+.lang-switch {
+  position: static;
   display: flex;
   align-items: center;
   gap: 0.35rem;
@@ -110,24 +146,69 @@ body > section:not(:first-child) {
   opacity: 0.35;
 }
 
-header {
-  position: relative;
+.nav-toggle {
+  display: none;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  width: 2.5rem;
+  height: 2.5rem;
+  padding: 0.45rem;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.35rem;
+}
+
+.nav-toggle-bar {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: var(--bs-primary);
+  border-radius: 1px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+body.nav-open .nav-toggle-bar:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+body.nav-open .nav-toggle-bar:nth-child(2) {
+  opacity: 0;
+}
+
+body.nav-open .nav-toggle-bar:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 /* Navbar */
 #logo-navbar {
+  flex: 1;
   height: 60px;
+  min-width: 0;
   transition: all 0.3s ease-in-out;
   background-image: url("../../src/img/logo-kartini-landscape-1.png");
   background-size: contain;
-  background-position: center;
+  background-position: left center;
   background-repeat: no-repeat;
 }
 body.navbar-scrolled #logo-navbar {
-  height: 55px;
+  height: 48px;
 }
 body.navbar-scrolled header {
-  background-color: rgba(var(--bs-body-rgb), 0.7);
+  background-color: rgba(var(--bs-body-rgb), 0.95);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+}
+
+.site-nav {
+  display: flex;
+  justify-content: center;
+  padding: 0 0.5rem 0.35rem;
+}
+
+.site-nav .nav {
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .nav {
@@ -161,30 +242,140 @@ body.navbar-scrolled header {
 }
 
 #why .why-img {
-  height: auto;
-  max-height: 500px;
-  width: auto;
+  height: 500px;
+  width: 400px;
   max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
+#why a:not(.btn) {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+#why a:not(.btn):hover {
+  color: #fff;
+  opacity: 0.85;
+}
+
+#why a.btn {
+  text-decoration: none;
+}
+
+#about a:not(.btn) {
+  color: var(--bs-primary);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+#about a.btn {
+  text-decoration: none;
 }
 
 @media (max-width: 767.98px) {
+  :root {
+    --header-offset: 88px;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .header-bar {
+    padding: 0.5rem 0.85rem;
+  }
+
+  #logo-navbar {
+    height: 44px;
+    background-position: left center;
+  }
+
+  body.navbar-scrolled #logo-navbar {
+    height: 40px;
+  }
+
+  .site-nav {
+    display: none;
+    padding: 0.25rem 0.85rem 0.85rem;
+    border-top: 1px solid rgba(56, 3, 1, 0.08);
+  }
+
+  body.nav-open .site-nav {
+    display: flex;
+  }
+
+  .site-nav .nav {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    row-gap: 0;
+    font-size: 15px;
+  }
+
+  .site-nav .nav-link {
+    padding: 0.7rem 0.35rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(56, 3, 1, 0.06);
+  }
+
+  .site-nav .nav-link.active {
+    border-bottom-width: 2px;
+  }
+
+  /* Hero: ruang di bawah header + hamburger */
   #home {
-    padding-top: 120px;
+    padding-top: 7.5rem;
   }
 
   .jumbotron-img {
-    height: 50vh;
+    height: 48vh;
   }
 
-  #navbar .nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    row-gap: 0.25rem;
-    font-size: 14px;
+  /* Header / subheading tengah */
+  .section-head,
+  .title-head,
+  #home .title-head,
+  #home .col-md-6,
+  #collection .title-head,
+  #why .section-head,
+  #about .section-head,
+  #product .section-head,
+  #gallery .section-head,
+  #order .section-head,
+  #faq .section-head,
+  #cta .col-md-6,
+  #video .overlay .text {
+    text-align: center !important;
   }
 
-  #navbar .nav-link {
-    padding: 0.35rem 0.55rem;
+  #home .text-md-start {
+    text-align: center !important;
+  }
+
+  /* Tombol tengah */
+  .btn,
+  a.btn {
+    display: inline-block;
+  }
+
+  #home .btn,
+  #collection .btn,
+  #why .btn,
+  #about .btn,
+  #order .btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #why .why-img {
+    height: 320px;
+    width: 100%;
+  }
+
+  #gallery .content img {
+    height: 200px;
   }
 
   #collection .container {
@@ -196,12 +387,39 @@ body.navbar-scrolled header {
     height: 220px;
   }
 
+  #collection .col-12.text-md-end {
+    text-align: center !important;
+  }
+
+  #product .section-head,
+  #product .product-meta {
+    text-align: left;
+  }
+
   #product .content .title {
-    font-size: 1.15em;
+    font-size: 1.1em;
   }
 
   #product .content .price {
-    font-size: 1.35em;
+    font-size: 1.25em;
+  }
+
+  #product .content .info {
+    text-align: right;
+  }
+
+  #order .order-steps .col {
+    text-align: center;
+  }
+
+  .footer .nav {
+    justify-content: center !important;
+    width: 100%;
+  }
+
+  .footer .nav .nav-link {
+    padding: 0.35rem 0.55rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -297,33 +515,34 @@ body.navbar-scrolled header {
   justify-content: center;
 }
 
-/* Gallery */
+/* Gallery — tinggi tetap agar scroll anchor stabil */
 #gallery .content img {
   border-radius: 1.25em;
-
   margin-bottom: 1em;
-
-  max-height: 400px;
   width: 100%;
-
+  height: 280px;
   object-fit: cover;
   object-position: top;
+  display: block;
 }
 
-/* Product */
+/* Product — rasio tetap (ruang direservasi sebelum gambar selesai) */
 #product .product-card img {
   border-radius: 1.25em;
   margin-bottom: 0.85rem;
   width: 100%;
-  aspect-ratio: 1/1;
+  height: auto;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: top;
+  display: block;
+  background: rgba(0, 0, 0, 0.04);
 }
 
 #product .product-meta {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   gap: 0.75rem;
 }
 
@@ -365,6 +584,9 @@ body.navbar-scrolled header {
   align-items: center;
   justify-content: center;
   gap: 0.6rem;
+  font-size: 0.95rem;
+  text-align: center;
+  padding: 0.75rem 1rem;
   padding: 1.25rem;
   color: #fff;
   text-decoration: none;

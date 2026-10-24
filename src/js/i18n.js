@@ -5,50 +5,47 @@
     id: {
       "meta.title": "Kartini Creations | Rajutan handmade · Malang",
       "meta.description":
-        "Kartini Creations, Malang: rajutan handmade. Stok siap di Shopee/Tokopedia (topi dari Rp75rb, sweater dari Rp550rb). Pesanan sesuai permintaan via WhatsApp.",
+        "Kartini Creations, Malang: rajutan handmade. Stok siap di Shopee dan Tokopedia. Pesanan khusus via Instagram dan WhatsApp.",
       "nav.home": "Beranda",
       "nav.collection": "Koleksi",
-      "nav.product": "Produk",
-      "nav.order": "Pesan",
+      "nav.product": "Stok siap",
+      "nav.order": "Cara pesan",
       "nav.faq": "FAQ",
-      "nav.contact": "Kontak",
-      "nav.about": "Tentang",
+      "nav.contact": "Pesan Sekarang",
+      "nav.about": "Cerita kami",
       "nav.aria": "Navigasi utama",
       "hero.eyebrow": "Kartini Creations",
       "hero.title": "Rajutan handmade, dikerjakan dengan teliti di Malang.",
       "hero.body":
-        "Rajutan tangan untuk momen sehari-hari. Pilih stok siap pakai, atau buat yang unik dengan ukuran dan warna sesuai Anda.",
+        "Setiap jahitan punya cerita. Temukan rajutan handmade favorit Anda—dibuat dengan teliti untuk kehangatan, kenyamanan, dan sentuhan personal di gaya sehari-hari.",
       "hero.cta": "Lihat Koleksi",
       "hero.ctaHref": "#collection",
-      "hero.imgAlt": "Model memakai sweater dan topi rajut lavender dari Kartini Creations",
-      "collection.eyebrow": "Yang kami buat",
-      "collection.title": "Topi, sweater, setelan",
+      "hero.imgAlt":
+        "Model memakai sweater dan topi rajut lavender dari Kartini Creations",
+      "collection.title": "Koleksi",
       "collection.cap1": "Topi rajut hijau",
       "collection.cap2": "Topi merah & sweater turtleneck abu",
       "collection.cap3": "Setelan sweater dan topi lavender",
       "collection.cta": "Lihat galeri",
       "why.title": "Kenapa kami",
       "why.1":
-        "<strong>Dikerjakan Putri Kapandeyan:</strong> Setiap pesanan dirajut atau dikrochet oleh pendiri di Malang.",
+        "<strong>Kreatifitas owner:</strong> Setiap pesanan dirajut atau dikrochet oleh <a href=\"https://www.instagram.com/putri_kapandeyan/\" target=\"_blank\" rel=\"noopener noreferrer\">Putri Kapandeyan</a>.",
       "why.2":
-        "<strong>Detail disepakati dulu:</strong> Ukuran, warna, benang, dan motif dikonfirmasi sebelum mulai.",
+        "<strong>Transparansi:</strong> Ukuran, warna, benang, dan motif dikonfirmasi sebelum mulai.",
       "why.3":
-        "<strong>Benang untuk dipakai sehari-hari:</strong> Dipilih agar nyaman dipakai rutin.",
+        "<strong>Kenyamanan:</strong> Benang untuk dipakai sehari-hari. Dipilih agar nyaman dipakai rutin.",
       "why.4":
-        "<strong>Dibuat setelah ada pesanan:</strong> Kami mulai setelah Anda pesan, jadi stok sisa tetap rendah.",
+        "<strong>Request-based:</strong> Kami mulai setelah Anda pesan, jadi stok selalu ada (pesanan khusus).",
       "why.cta": "Ikuti Instagram",
       "why.imgAlt": "Putri Kapandeyan bersama produk Kartini Creations",
-      "about.title": "Tentang kami",
+      "about.title": "Cerita kami",
       "about.p1":
-        "Kartini Creations adalah brand rajut dan crochet rumahan di Malang, Indonesia. Putri Kapandeyan mengerjakan setiap potongan dengan tangan: topi, sweater, aksesori, atau setelan lengkap.",
-      "about.p2":
-        "Sampaikan ukuran, warna, benang, dan motif yang Anda mau. Kami konfirmasi brief sebelum mulai merajut.",
+        "Kartini Creations adalah brand rajut dan crochet rumahan di Malang. <a href=\"https://www.instagram.com/putri_kapandeyan/\" target=\"_blank\" rel=\"noopener noreferrer\">Putri Kapandeyan</a> mengerjakan setiap potongan dengan tangan: topi, sweater, aksesori, atau setelan lengkap.",
       "about.cta": "Lihat cara pesan",
       "video.title": "Proses di balik Kartini Creations",
-      "video.sub": "Nyaman terasa di setiap helai rajutan",
-      "product.title": "Harga stok siap",
-      "product.lead":
-        "Harga mulai dari listing Tokopedia (Oktober 2026). Stok dan total bayar cek di toko. Pesanan sesuai permintaan lewat WhatsApp atau Instagram.",
+      "video.sub": "Nyaman terasa di setiap helai",
+      "product.title": "Stok siap",
+      "product.lead": "Berdasar listing Tokopedia (Oktober 2026).",
       "product.hats": "Topi & kupluk",
       "product.sweater": "Sweater",
       "product.set": "Setelan lengkap",
@@ -61,16 +58,16 @@
       "gallery.title": "Galeri",
       "order.title": "Cara pesan",
       "order.lead":
-        "Stok siap: Shopee / Tokopedia. Pesanan sesuai permintaan: WhatsApp atau Instagram.",
+        "Stok siap di Shopee atau Tokopedia. Pesanan khusus lewat Instagram atau WhatsApp.",
       "order.1.title": "Pilih jalur",
       "order.1.body":
-        "Ambil stok siap di toko online, atau pesan sesuai permintaan lewat chat.",
+        "Beli stok siap di toko online, atau chat untuk pesanan khusus.",
       "order.2.title": "Konfirmasi detail",
       "order.2.body":
-        "Untuk pesanan khusus: ukuran, warna, benang, dan motif disepakati dulu.",
+        "Untuk pesanan khusus: sepakati ukuran, warna, benang, dan motif.",
       "order.3.title": "Bayar",
       "order.3.body":
-        "Stok siap dibayar di toko. Pesanan khusus: ikuti instruksi uang muka di chat.",
+        "Stok siap dibayar di toko. Pesanan khusus: ikuti instruksi di chat.",
       "order.4.title": "Terima pesanan",
       "order.4.body":
         "Dikirim ke alamat Anda, atau diambil di Malang jika disepakati.",
@@ -78,81 +75,81 @@
       "order.wa":
         "https://wa.me/6281805185485?text=Halo%20Kartini%20Creations%2C%20saya%20ingin%20pesan%20rajutan.",
       "faq.title": "FAQ",
-      "faq.1.q": "Bisa pesan ukuran dan warna khusus?",
+      "faq.1.q": "Bagaimana cara beli stok siap?",
       "faq.1.a":
-        "Ya. Sampaikan ukuran, warna, jenis benang, dan motif. Kami konfirmasi dulu sebelum dikerjakan.",
-      "faq.2.q": "Berapa lama pengerjaan?",
+        "Langsung di Shopee atau Tokopedia Kartini Creations.",
+      "faq.2.q": "Bisa pesan ukuran dan warna khusus?",
       "faq.2.a":
-        "Tergantung antrian dan seberapa khusus pesanannya. Tanya estimasi terkini lewat WhatsApp sebelum bayar.",
-      "faq.3.q": "Harga di situs sudah final?",
+        "Ya. Sampaikan ukuran, warna, benang, dan motif. Kami konfirmasi sebelum dikerjakan.",
+      "faq.3.q": "Bagaimana cek ketersediaan?",
       "faq.3.a":
-        "Angka “mulai” mengikuti harga terendah stok siap di Tokopedia saat dicek (Oktober 2026). Harga di toko bisa berubah. Pesanan khusus bisa beda; total ditulis di chat sebelum bayar.",
-      "faq.4.q": "Bisa kirim luar kota?",
+        "Lihat listing toko, atau tanya via Instagram dan WhatsApp.",
+      "faq.4.q": "Harga di situs sudah final?",
       "faq.4.a":
-        "Ya. Stok siap ikut pengiriman Shopee/Tokopedia. Pesanan khusus dikirim setelah selesai, atau diambil di Malang jika disepakati.",
-      "faq.5.q": "Pesan lewat mana?",
+        "Angka “mulai” mengikuti harga terendah stok siap di Tokopedia (Oktober 2026). Harga toko bisa berubah; pesanan khusus dikonfirmasi di chat.",
+      "faq.5.q": "Bisa kirim luar kota?",
       "faq.5.a":
-        "Stok siap: Shopee atau Tokopedia. Pesanan sesuai permintaan: WhatsApp atau katalog Instagram. Semua link: linktr.ee/KartiniCreations",
-      "cta.eyebrow": "Siap pesan?",
-      "cta.title": "Stok siap di toko online.<br />Pesanan khusus lewat WhatsApp.",
-      "cta.shopee": "Shopee · stok siap",
-      "cta.tokopedia": "Tokopedia · stok siap",
-      "cta.instagram": "Instagram · pesan dulu",
-      "cta.linktree": "Linktree · semua tautan",
+        "Ya. Stok siap ikut pengiriman Shopee/Tokopedia. Pesanan khusus dikirim setelah selesai, atau diambil di Malang jika disepakati.",
+      "faq.6.q": "Hubungi lewat mana?",
+      "faq.6.a":
+        "Instagram untuk katalog, WhatsApp untuk chat cepat.",
+      "cta.eyebrow": "Pesan Sekarang",
+      "cta.title":
+        "Silakan cek katalog kami atau pesan khusus lewat Instagram dan WhatsApp.",
+      "cta.shopee": "Shopee",
+      "cta.tokopedia": "Tokopedia",
+      "cta.instagram": "Instagram",
       "cta.wa": "WhatsApp",
       "cta.waHref":
         "https://wa.me/6281805185485?text=Halo%20Kartini%20Creations%2C%20saya%20ingin%20tanya%20produk.",
+      "footer.blurb": "Rajutan handmade dari Malang.",
       "footer.by": "Dibuat oleh",
       "lang.label": "Bahasa",
     },
     en: {
-      "meta.title": "Kartini Creations | Hand-knit & crochet · Malang",
+      "meta.title": "Kartini Creations | Handmade knitwear · Malang",
       "meta.description":
-        "Kartini Creations, Malang: handmade knitwear. Ready stock on Shopee/Tokopedia (hats from Rp75k, sweaters from Rp550k). Custom pre-order via WhatsApp.",
+        "Kartini Creations, Malang: handmade knitwear. Ready-stock on Shopee and Tokopedia. Custom orders via Instagram and WhatsApp.",
       "nav.home": "Home",
       "nav.collection": "Collection",
-      "nav.product": "Pieces",
-      "nav.order": "Order",
+      "nav.product": "Ready-stock",
+      "nav.order": "How to Order",
       "nav.faq": "FAQ",
-      "nav.contact": "Contact",
-      "nav.about": "About",
-      "nav.aria": "Primary",
+      "nav.contact": "Order Now",
+      "nav.about": "Our Story",
+      "nav.aria": "Primary navigation",
       "hero.eyebrow": "Kartini Creations",
       "hero.title": "Handmade knitwear, made with care in Malang.",
       "hero.body":
-        "Thoughtfully handcrafted knitwear for your everyday moments. Discover ready-to-wear pieces or create something uniquely yours with custom sizes and colors.",
+        "Every stitch tells a story. Find your favorite handmade knitwear, crafted with care to bring warmth, comfort, and a personal touch to your everyday style.",
       "hero.cta": "Explore Our Collection",
       "hero.ctaHref": "#collection",
       "hero.imgAlt":
         "Model wearing a lavender hand-knit sweater and beanie from Kartini Creations",
-      "collection.eyebrow": "What we make",
-      "collection.title": "Hats, sweaters, sets",
-      "collection.cap1": "Hand-knit beanie (green)",
+      "collection.title": "Collection",
+      "collection.cap1": "Hand-knit green beanie",
       "collection.cap2": "Red beanie & grey turtleneck sweater",
-      "collection.cap3": "Sweater and beanie set (lavender)",
-      "collection.cta": "See gallery",
+      "collection.cap3": "Lavender sweater and beanie set",
+      "collection.cta": "View gallery",
       "why.title": "Why us",
       "why.1":
-        "<strong>Handmade by Putri Kapandeyan:</strong> Each order is knit or crocheted by the founder in Malang.",
+        "<strong>Owner creativity:</strong> Each order is knit or crocheted by <a href=\"https://www.instagram.com/putri_kapandeyan/\" target=\"_blank\" rel=\"noopener noreferrer\">Putri Kapandeyan</a>.",
       "why.2":
-        "<strong>Details first:</strong> Size, color, yarn, and pattern are agreed before we start.",
+        "<strong>Transparency:</strong> Size, color, yarn, and pattern are confirmed before we start.",
       "why.3":
-        "<strong>Everyday yarns:</strong> Chosen for comfort in regular wear.",
+        "<strong>Comfort:</strong> Yarns made for everyday wear. Chosen to feel good in regular use.",
       "why.4":
-        "<strong>Made on demand:</strong> We start after you order, so leftover stock stays low.",
+        "<strong>Request-based:</strong> We start after you order, so custom pieces stay available on request.",
       "why.cta": "Follow on Instagram",
       "why.imgAlt": "Putri Kapandeyan with Kartini Creations knitwear",
-      "about.title": "About us",
+      "about.title": "Our Story",
       "about.p1":
-        "Kartini Creations is a home-based knit and crochet brand in Malang, Indonesia. Putri Kapandeyan makes each piece by hand: hat, sweater, accessory, or full set.",
-      "about.p2":
-        "Share the size, color, yarn, and pattern you want. We confirm the brief before knitting starts.",
+        "Kartini Creations is a home-based knit and crochet brand in Malang. <a href=\"https://www.instagram.com/putri_kapandeyan/\" target=\"_blank\" rel=\"noopener noreferrer\">Putri Kapandeyan</a> makes each piece by hand: hats, sweaters, accessories, or full sets.",
       "about.cta": "See how to order",
-      "video.title": "Process behind Kartini Creations",
-      "video.sub": "Real comfort in every hand-knit piece",
-      "product.title": "Ready stock prices",
-      "product.lead":
-        "Starting prices from Tokopedia listings (October 2026). Check the shop for stock and the final total. Custom pre-orders go through WhatsApp or Instagram.",
+      "video.title": "The process behind Kartini Creations",
+      "video.sub": "Comfort in every hand-knit piece",
+      "product.title": "Ready-stock",
+      "product.lead": "Based on Tokopedia listings (October 2026).",
       "product.hats": "Hats & beanies",
       "product.sweater": "Sweater",
       "product.set": "Full set",
@@ -163,18 +160,18 @@
       "product.shopee": "Shopee",
       "product.instagram": "Instagram",
       "gallery.title": "Gallery",
-      "order.title": "How to order",
+      "order.title": "How to Order",
       "order.lead":
-        "Ready stock: Shopee / Tokopedia. Custom pre-order: WhatsApp or Instagram.",
+        "Ready-stock on Shopee or Tokopedia. Custom orders via Instagram or WhatsApp.",
       "order.1.title": "Choose a path",
       "order.1.body":
-        "Buy ready stock in the online shop, or start a custom pre-order in chat.",
+        "Buy ready-stock in the online shop, or chat for a custom order.",
       "order.2.title": "Confirm details",
       "order.2.body":
-        "For custom orders: agree size, color, yarn, and pattern first.",
+        "For custom orders: agree size, color, yarn, and pattern.",
       "order.3.title": "Pay",
       "order.3.body":
-        "Ready stock: pay at checkout. Custom: follow the deposit steps in chat.",
+        "Ready-stock: pay at checkout. Custom: follow the steps in chat.",
       "order.4.title": "Receive your order",
       "order.4.body":
         "Shipped to your address, or pickup in Malang if agreed.",
@@ -182,30 +179,34 @@
       "order.wa":
         "https://wa.me/6281805185485?text=Hi%20Kartini%20Creations%2C%20I%20would%20like%20to%20order%20knitwear.",
       "faq.title": "FAQ",
-      "faq.1.q": "Can I customize size and color?",
+      "faq.1.q": "How do I buy ready-stock?",
       "faq.1.a":
-        "Yes. Share size, color, yarn type, and pattern. We confirm before work starts.",
-      "faq.2.q": "How long does it take?",
+        "Order directly on Kartini Creations’ Shopee or Tokopedia shop.",
+      "faq.2.q": "Can I request custom sizes or colors?",
       "faq.2.a":
-        "It depends on the queue and how custom the piece is. Ask for the current estimate on WhatsApp before you pay.",
-      "faq.3.q": "Are site prices final?",
+        "Yes. Share size, color, yarn, and pattern. We confirm before work starts.",
+      "faq.3.q": "How do I check availability?",
       "faq.3.a":
-        "“From” prices follow the lowest ready-stock prices on Tokopedia when checked (October 2026). Shop prices can change. Custom pre-orders may differ; the total is written in chat before payment.",
-      "faq.4.q": "Do you ship outside the city?",
+        "Check the shop listings, or ask on Instagram and WhatsApp.",
+      "faq.4.q": "Are site prices final?",
       "faq.4.a":
-        "Yes. Ready stock follows Shopee/Tokopedia shipping. Custom pieces ship when finished, or pickup in Malang if agreed.",
-      "faq.5.q": "Where do I order?",
+        "“From” prices follow the lowest ready-stock prices on Tokopedia (October 2026). Shop prices can change; custom totals are confirmed in chat.",
+      "faq.5.q": "Do you ship outside the city?",
       "faq.5.a":
-        "Ready stock: Shopee or Tokopedia. Pre-order / custom: WhatsApp or the Instagram catalog. All links: linktr.ee/KartiniCreations",
-      "cta.eyebrow": "Ready to order?",
-      "cta.title": "Ready stock in the online shops.<br />Custom via WhatsApp.",
-      "cta.shopee": "Shopee · ready stock",
-      "cta.tokopedia": "Tokopedia · ready stock",
-      "cta.instagram": "Instagram · pre-order",
-      "cta.linktree": "Linktree · all links",
+        "Yes. Ready-stock follows Shopee/Tokopedia shipping. Custom pieces ship when finished, or pickup in Malang if agreed.",
+      "faq.6.q": "How do I contact you?",
+      "faq.6.a":
+        "Instagram for the catalog, WhatsApp for a quick chat.",
+      "cta.eyebrow": "Order Now",
+      "cta.title":
+        "Please browse our catalog or place a custom order on Instagram and WhatsApp.",
+      "cta.shopee": "Shopee",
+      "cta.tokopedia": "Tokopedia",
+      "cta.instagram": "Instagram",
       "cta.wa": "WhatsApp",
       "cta.waHref":
         "https://wa.me/6281805185485?text=Hi%20Kartini%20Creations%2C%20I%20have%20a%20product%20question.",
+      "footer.blurb": "Handmade knitwear from Malang.",
       "footer.by": "Site by",
       "lang.label": "Language",
     },
@@ -235,7 +236,6 @@
 
     document.querySelectorAll("[data-i18n-attr]").forEach(function (el) {
       const spec = el.getAttribute("data-i18n-attr");
-      // format: attr:key;attr2:key2
       spec.split(";").forEach(function (part) {
         const bits = part.split(":");
         if (bits.length < 2) return;

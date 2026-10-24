@@ -1,31 +1,71 @@
-window.scrollTo(0, 0);  // Force scroll to top as soon as possible
+window.scrollTo(0, 0);
 
 $(function () {
-    const offset = 149;
+  function headerOffset() {
+    const header = document.querySelector("header");
+    if (!header) return 120;
+    return Math.ceil(header.getBoundingClientRect().height) + 8;
+  }
 
+  AOS.init({
+    duration: 1200,
+    once: true,
+  });
 
-    AOS.init({
-        duration: 1200,
-        once: true,
-    })
+  $(window).scroll(function () {
+    if ($(this).scrollTop() >= 30) {
+      $("body").addClass("navbar-scrolled");
+    } else {
+      $("body").removeClass("navbar-scrolled");
+    }
+  });
 
-    $(window).scroll(function () {
-        if ($(this).scrollTop() >= 30) {
-            $('body').addClass('navbar-scrolled');
+  const $toggle = $("#nav-toggle");
+  const $nav = $("#navbar");
 
-        } else {
-            $('body').removeClass('navbar-scrolled');
-        }
+  function setNavOpen(open) {
+    $("body").toggleClass("nav-open", open);
+    $toggle.attr("aria-expanded", open ? "true" : "false");
+  }
 
+  $toggle.on("click", function () {
+    setNavOpen(!$("body").hasClass("nav-open"));
+  });
+
+  function scrollToHash(hash, smooth) {
+    if (!hash || hash === "#") return;
+    const el = document.querySelector(hash);
+    if (!el) return;
+    setNavOpen(false);
+    const y = Math.max(
+      0,
+      el.getBoundingClientRect().top + window.scrollY - headerOffset()
+    );
+    window.scrollTo({
+      top: y,
+      behavior: smooth === false ? "auto" : "smooth",
     });
+  }
 
-    $('.navbar li a').click(function (event) {
-        event.preventDefault();
-        el = $($(this).attr('href'));  // Keep it as a jQuery object
+  $('a[href^="#"]').on("click", function (event) {
+    const hash = $(this).attr("href");
+    if (!hash || hash === "#" || !document.querySelector(hash)) return;
+    event.preventDefault();
+    scrollToHash(hash, true);
+    if (history.replaceState) {
+      history.replaceState(null, "", hash);
+    }
+  });
 
-        const y = el.offset().top - offset;
+  $(window).on("resize", function () {
+    if (window.matchMedia("(min-width: 768px)").matches) {
+      setNavOpen(false);
+    }
+  });
 
-        window.scrollTo({ top: y, behavior: 'smooth' });
-
+  if (window.location.hash) {
+    requestAnimationFrame(function () {
+      scrollToHash(window.location.hash, false);
     });
+  }
 });
