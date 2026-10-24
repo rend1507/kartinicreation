@@ -8,13 +8,13 @@
             <div class="col-12 col-md-6 text-center mt-3 text-md-start my-md-auto" data-aos="fade-left">
                 <div class="title-head">
                     <h4>Kartini Creations</h4>
-                    <h1 class="h3 fw-bold">Rajutan handmade dari Malang, siap dipakai setiap hari</h1>
+                    <h1 class="h3 fw-bold">Rajutan handmade, dikerjakan dengan teliti di Malang.</h1>
                 </div>
                 <p>
-                    Setiap potongan dikerjakan tangan. Ambil stok siap di Shopee atau Tokopedia, atau pesan ukuran dan warna sesuai Anda.
+                    Rajutan tangan untuk momen sehari-hari. Pilih stok siap pakai, atau buat yang unik dengan ukuran dan warna sesuai Anda.
                 </p>
-                <a href="https://wa.me/6281805185485?text=Halo%20Kartini%20Creations%2C%20saya%20ingin%20pesan%20sekarang." class="btn btn-primary rounded-pill" target="_blank" rel="noopener noreferrer">
-                    Pesan Sekarang
+                <a href="#collection" class="btn btn-primary rounded-pill">
+                    Lihat Koleksi
                 </a>
             </div>
         </div>

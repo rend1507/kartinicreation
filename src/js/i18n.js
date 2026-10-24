@@ -15,12 +15,11 @@
       "nav.about": "Tentang",
       "nav.aria": "Navigasi utama",
       "hero.eyebrow": "Kartini Creations",
-      "hero.title": "Rajutan handmade dari Malang, siap dipakai setiap hari",
+      "hero.title": "Rajutan handmade, dikerjakan dengan teliti di Malang.",
       "hero.body":
-        "Setiap potongan dikerjakan tangan. Ambil stok siap di Shopee atau Tokopedia, atau pesan ukuran dan warna sesuai Anda.",
-      "hero.cta": "Pesan Sekarang",
-      "hero.ctaHref":
-        "https://wa.me/6281805185485?text=Halo%20Kartini%20Creations%2C%20saya%20ingin%20pesan%20sekarang.",
+        "Rajutan tangan untuk momen sehari-hari. Pilih stok siap pakai, atau buat yang unik dengan ukuran dan warna sesuai Anda.",
+      "hero.cta": "Lihat Koleksi",
+      "hero.ctaHref": "#collection",
       "hero.imgAlt": "Model memakai sweater dan topi rajut lavender dari Kartini Creations",
       "collection.eyebrow": "Yang kami buat",
       "collection.title": "Topi, sweater, setelan",
@@ -119,12 +118,11 @@
       "nav.about": "About",
       "nav.aria": "Primary",
       "hero.eyebrow": "Kartini Creations",
-      "hero.title": "Handmade knitwear from Malang, made for every day",
+      "hero.title": "Handmade knitwear, made with care in Malang.",
       "hero.body":
-        "Every piece is made by hand. Shop ready stock on Shopee or Tokopedia, or order size and color to your brief.",
-      "hero.cta": "Order Now",
-      "hero.ctaHref":
-        "https://wa.me/6281805185485?text=Hi%20Kartini%20Creations%2C%20I%20would%20like%20to%20order%20now.",
+        "Thoughtfully handcrafted knitwear for your everyday moments. Discover ready-to-wear pieces or create something uniquely yours with custom sizes and colors.",
+      "hero.cta": "Explore Our Collection",
+      "hero.ctaHref": "#collection",
       "hero.imgAlt":
         "Model wearing a lavender hand-knit sweater and beanie from Kartini Creations",
       "collection.eyebrow": "What we make",
