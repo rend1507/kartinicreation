@@ -412,14 +412,58 @@ body.navbar-scrolled header {
     text-align: center;
   }
 
-  .footer .nav {
-    justify-content: center !important;
+  /* Footer mobile: stack + tengah (bukan split) */
+  .footer-brand-inner {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-copy {
+    text-align: center;
+  }
+
+  .footer-nav {
+    justify-content: center;
     width: 100%;
   }
 
-  .footer .nav .nav-link {
+  .footer-nav .nav-link {
     padding: 0.35rem 0.55rem;
     font-size: 0.9rem;
+  }
+}
+
+/* Footer — desktop+: copyright kiri | nav kanan */
+.footer-row {
+  --bs-gutter-x: 1.5rem;
+}
+
+.footer-brand-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-nav {
+  justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .footer-brand {
+    text-align: left;
+  }
+
+  .footer-brand-inner {
+    justify-content: flex-start;
+    text-align: left;
+  }
+
+  .footer-copy {
+    text-align: left;
+  }
+
+  .footer-nav {
+    justify-content: flex-end;
   }
 }
 
